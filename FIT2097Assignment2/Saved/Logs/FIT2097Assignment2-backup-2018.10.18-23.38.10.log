@@ -1,0 +1,917 @@
+﻿Log file open, 10/18/18 23:28:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FIT2097Assignment2
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-27949533) SRandInit(-27949533).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.305306
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.312s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Binaries/Win64/UE4Editor-FIT2097Assignment2-581.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am MatthewChuHPSpectre (192.168.56.1:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.014s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.18-12.28.57:908][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-12.28.57:908][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.18-12.28.57:929][  0]LogInit: Computer: MATTHEWCHUHPSPE
+[2018.10.18-12.28.57:929][  0]LogInit: User: MatthewChu
+[2018.10.18-12.28.57:929][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.18-12.28.57:929][  0]LogInit: High frequency timer resolution =1.757813 MHz
+[2018.10.18-12.28.57:929][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.10.18-12.28.57:929][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.18-12.28.57:930][  0]LogMemory: Process Physical Memory: 273.90 MB used, 273.90 MB peak
+[2018.10.18-12.28.57:930][  0]LogMemory: Process Virtual Memory: 264.77 MB used, 264.77 MB peak
+[2018.10.18-12.28.57:930][  0]LogMemory: Physical Memory: 4339.88 MB used,  3693.71 MB free, 8033.59 MB total
+[2018.10.18-12.28.57:930][  0]LogMemory: Virtual Memory: 4795.51 MB used,  3693.71 MB free, 134217728.00 MB total
+[2018.10.18-12.28.57:963][  0]LogInit: Using OS detected language (en-US).
+[2018.10.18-12.28.57:963][  0]LogInit: Using OS detected locale (en-AU).
+[2018.10.18-12.28.57:969][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.18-12.28.58:434][  0]LogStreaming: Display: Took  0.470s to EndInitTextLocalization.
+[2018.10.18-12.28.58:434][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.18-12.28.58:469][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.18-12.28.58:469][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.18-12.28.58:769][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.18-12.28.58:823][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.10.18-12.28.58:823][  0]LogD3D11RHI:       128/0/4016 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.10.18-12.28.58:825][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.18-12.28.58:825][  0]LogD3D11RHI:       0/0/4016 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.18-12.28.58:825][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.18-12.28.58:834][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.18-12.28.58:834][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.18-12.28.58:834][  0]LogWindows: EnumDisplayDevices:
+[2018.10.18-12.28.58:834][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.10.18-12.28.58:834][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.10.18-12.28.58:835][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.10.18-12.28.58:835][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.18-12.28.58:835][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2018.10.18-12.28.58:835][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.18-12.28.58:835][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.18-12.28.58:835][  0]LogRHI: Texture pool is 1495 MB (70% of 2136 MB)
+[2018.10.18-12.28.58:879][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.18-12.28.58:886][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2018.10.18-12.28.58:888][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Intermediate/Shaders/WorkingDirectory/23572/).
+[2018.10.18-12.28.58:888][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matthew Chu/AppData/Local/Temp/UnrealShaderWorkingDir/3D89EFBF4F2DC29E8FE27FA2E99E301F/'.
+[2018.10.18-12.28.59:233][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.18-12.28.59:255][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.18-12.28.59:274][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.18-12.28.59:295][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.18-12.28.59:316][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.18-12.28.59:336][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.18-12.28.59:355][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.18-12.28.59:376][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.18-12.28.59:387][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.18-12.28.59:403][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.18-12.28.59:420][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.18-12.28.59:436][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.18-12.28.59:452][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.10.18-12.28.59:469][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.18-12.28.59:485][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.18-12.28.59:518][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.18-12.28.59:518][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.18-12.28.59:534][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-12.28.59:536][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.18-12.28.59:581][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-12.28.59:596][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-12.28.59:611][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.18-12.28.59:625][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.18-12.28.59:641][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.18-12.28.59:657][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.18-12.28.59:657][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.18-12.28.59:895][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.18-12.28.59:895][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.18-12.28.59:895][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.18-12.29.00:767][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.18-12.29.00:841][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/Matthew Chu/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.18-12.29.00:841][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Matthew Chu/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.10.18-12.29.00:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.18-12.29.00:841][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.18-12.29.00:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.18-12.29.00:841][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.18-12.29.00:857][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.18-12.29.00:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew Chu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.18-12.29.00:872][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.18-12.29.00:872][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.18-12.29.00:883][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.18-12.29.00:883][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.18-12.29.00:884][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-12.29.00:884][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-12.29.01:092][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2018.10.18-12.29.01:520][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-12.29.01:739][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.18-12.29.01:745][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.18-12.29.01:745][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.18-12.29.01:745][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.18-12.29.01:745][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.18-12.29.01:745][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.18-12.29.01:800][  0]LogNetVersion: FIT2097Assignment2 , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 789636822)
+[2018.10.18-12.29.02:631][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.241108 seconds
+[2018.10.18-12.29.02:637][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.10.18-12.29.02:637][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.10.18-12.29.02:637][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.18-12.29.05:153][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.18-12.29.05:205][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.18-12.29.05:648][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a7c153dd0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.18-12.29.05:657][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a7c153dd0, Size=72
+[2018.10.18-12.29.05:657][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a7c132d40, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.18-12.29.05:666][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a7be93fb0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.18-12.29.05:695][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a7be86940, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.18-12.29.05:705][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a7be86940, Size=64
+[2018.10.18-12.29.05:705][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a7be86940, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_1:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.18-12.29.05:713][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a7cdb25c0, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.18-12.29.05:911][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.864142ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.10.18-12.29.05:923][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [3.161315ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.10.18-12.29.05:936][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.553529ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.10.18-12.29.06:236][  0]SourceControl: Source control is disabled
+[2018.10.18-12.29.06:236][  0]SourceControl: Source control is disabled
+[2018.10.18-12.29.06:277][  0]SourceControl: Source control is disabled
+[2018.10.18-12.29.06:316][  0]SourceControl: Source control is disabled
+[2018.10.18-12.29.07:268][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.18-12.29.07:548][  0]LogOcInput: OculusInput pre-init called
+[2018.10.18-12.29.07:742][  0]LogEngine: Initializing Engine...
+[2018.10.18-12.29.07:746][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.18-12.29.07:748][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-12.29.07:748][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-12.29.08:008][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.18-12.29.08:154][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-12.29.08:184][  0]LogInit: FAudioDevice initialized.
+[2018.10.18-12.29.08:264][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB C:/Users/Matthew Chu/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.18-12.29.08:282][  0]LogInit: Texture streaming: Enabled
+[2018.10.18-12.29.08:323][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.18-12.29.08:352][  0]LogInit: Transaction tracking system initialized
+[2018.10.18-12.29.08:404][  0]BlueprintLog: New page: Editor Load
+[2018.10.18-12.29.08:705][  0]LocalizationService: Localization service is disabled
+[2018.10.18-12.29.09:286][  0]LogConsoleResponse: Display: 
+[2018.10.18-12.29.09:973][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.18-12.29.09:973][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.18-12.29.09:974][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.18-12.29.09:974][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-12.29.09:974][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-12.29.10:324][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/' took 0.06s
+[2018.10.18-12.29.12:635][  0]SourceControl: Source control is disabled
+[2018.10.18-12.29.12:637][  0]LightingResults: New page: Lighting Build
+[2018.10.18-12.29.12:653][  0]MapCheck: New page: Map Check
+[2018.10.18-12.29.12:653][  0]LightingResults: New page: Lighting Build
+[2018.10.18-12.29.12:684][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a7c132d40, Size=72
+[2018.10.18-12.29.12:684][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a7be86940, Size=64
+[2018.10.18-12.29.13:340][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.18-12.29.13:372][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-12.29.13:406][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-12.29.13:929][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 522.579ms to complete.
+[2018.10.18-12.29.13:929][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.294
+[2018.10.18-12.29.14:282][  0]LogCollectionManager: Loaded 0 collections in 0.010860 seconds
+[2018.10.18-12.29.14:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Saved/Collections/' took 0.01s
+[2018.10.18-12.29.14:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Developers/MatthewChu/Collections/' took 0.01s
+[2018.10.18-12.29.14:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Collections/' took 0.01s
+[2018.10.18-12.29.14:373][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.10.18-12.29.14:408][  0]LogContentBrowser: Native class hierarchy populated in 0.0352 seconds. Added 2458 classes and 560 folders.
+[2018.10.18-12.29.14:445][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2018.10.18-12.29.14:731][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2018.10.18-12.29.14:756][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0033 seconds. Added 1 classes and 2 folders.
+[2018.10.18-12.29.15:051][  0]LogSlate: Took 0.000879 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.18-12.29.15:062][  0]LogSlate: Took 0.000829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.18-12.29.15:093][  0]LogSlate: Took 0.001645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.18-12.29.15:453][  0]LogRenderer: Reallocating scene render targets to support 684x340 Format 10 NumSamples 1 (Frame:1).
+[2018.10.18-12.29.16:287][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2018.10.18-12.29.16:287][  0]LogLoad: (Engine Initialization) Total time: 23.89 seconds
+[2018.10.18-12.29.16:287][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.18-12.29.16:649][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.18-12.29.16:699][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.18-12.29.17:308][  2]LogAssetRegistry: Asset discovery search completed in 16.2381 seconds
+[2018.10.18-12.29.17:311][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.18-12.29.17:311][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000130 seconds (updated 0 objects)
+[2018.10.18-12.29.21:734][158]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.26:223][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.29.27:266][441]LogSlate: Took 0.000583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.18-12.29.27:349][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/initialShadingGroup'
+[2018.10.18-12.29.27:350][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/initialShadingGroup' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/key.uasset.
+[2018.10.18-12.29.27:350][441]LoadErrors: Error: /Game/Assignment2/Materials/key : Can't find file for asset. /Game/Assignment1/Materials/initialShadingGroup
+[2018.10.18-12.29.27:350][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/initialShadingGroup'
+[2018.10.18-12.29.27:350][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/initialShadingGroup' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/key.uasset.
+[2018.10.18-12.29.27:356][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Cork'
+[2018.10.18-12.29.27:356][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Cork' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.29.27:356][441]LoadErrors: Error: /Game/Assignment2/Materials/PotionA : Can't find file for asset. /Game/Assignment1/Materials/Cork
+[2018.10.18-12.29.27:357][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.29.27:357][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.29.27:357][441]LoadErrors: Error: /Game/Assignment2/Materials/PotionA : Can't find file for asset. /Game/Assignment1/Materials/Glass
+[2018.10.18-12.29.27:357][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Liquid'
+[2018.10.18-12.29.27:358][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Liquid' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.29.27:358][441]LoadErrors: Error: /Game/Assignment2/Materials/PotionA : Can't find file for asset. /Game/Assignment1/Materials/Liquid
+[2018.10.18-12.29.27:358][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Cork'
+[2018.10.18-12.29.27:359][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Cork' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.29.27:359][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.29.27:359][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.29.27:360][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Liquid'
+[2018.10.18-12.29.27:360][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Liquid' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.29.27:371][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a2058e5c0, Size=448, Default__Item_C Function /Game/Assignment2/Blueprints/Item.Item_C:ExecuteUbergraph_Item
+[2018.10.18-12.29.27:385][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a2058e5c0, Size=448
+[2018.10.18-12.29.27:385][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a2058e5c0, Size=448, Default__Item_C Function /Engine/Transient.REINST_Item_C_9:ExecuteUbergraph_Item
+[2018.10.18-12.29.27:398][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a2058d600, Size=448, Default__Item_C Function /Game/Assignment2/Blueprints/Item.Item_C:ExecuteUbergraph_Item
+[2018.10.18-12.29.27:437][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a6cedef00, Size=256, Default__FirstPersonProjectile_C Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile
+[2018.10.18-12.29.27:447][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a6cedef00, Size=256
+[2018.10.18-12.29.27:447][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a6cedef00, Size=256, Default__FirstPersonProjectile_C Function /Engine/Transient.REINST_FirstPersonProjectile_C_11:ExecuteUbergraph_FirstPersonProjectile
+[2018.10.18-12.29.27:452][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a6cedd400, Size=256, Default__FirstPersonProjectile_C Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile
+[2018.10.18-12.29.27:460][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:460][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.29.27:460][441]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/Assignment1/UI/EndScreenHUD
+[2018.10.18-12.29.27:461][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:462][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.29.27:462][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:463][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.29.27:463][441]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/Assignment1/UI/HealthBarHUD
+[2018.10.18-12.29.27:472][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:472][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.29.27:473][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:473][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.29.27:476][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a1d254700, Size=768, Default__FirstPersonCharacter_C Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.10.18-12.29.27:477][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:477][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:477][441]LoadErrors: Error: /Game/Assignment2/Levels/Puzzle_Map : Can't find file for asset. /Game/Assignment1/UI/EndScreenHUD
+[2018.10.18-12.29.27:477][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:478][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:478][441]LoadErrors: Error: /Game/Assignment2/Levels/Puzzle_Map : Can't find file for asset. /Game/Assignment1/UI/HealthBarHUD
+[2018.10.18-12.29.27:478][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:479][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:479][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:479][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:480][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:480][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:480][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:481][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:481][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:481][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:485][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:485][441]LoadErrors: Failed to load /Game/Assignment1/UI/HealthBarHUD.HealthBarHUD_C Referenced by FirstPersonCharacter
+[2018.10.18-12.29.27:486][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:486][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:486][441]LoadErrors: Failed to load /Game/Assignment1/UI/EndScreenHUD.EndScreenHUD_C Referenced by FirstPersonCharacter
+[2018.10.18-12.29.27:489][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:500][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:500][441]LoadErrors: Failed to load /Game/Assignment1/UI/HealthBarHUD.HealthBarHUD_C Referenced by K2Node_CreateWidget_1
+[2018.10.18-12.29.27:500][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:501][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:501][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:502][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:502][441]LoadErrors: Failed to load /Game/Assignment1/UI/HealthBarHUD.HealthBarHUD_C Referenced by K2Node_VariableSet_940
+[2018.10.18-12.29.27:502][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:503][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.29.27:503][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:505][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:505][441]LoadErrors: Failed to load /Game/Assignment1/UI/EndScreenHUD.EndScreenHUD_C Referenced by K2Node_CreateWidget_18
+[2018.10.18-12.29.27:505][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:506][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:506][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:507][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:507][441]LoadErrors: Failed to load /Game/Assignment1/UI/EndScreenHUD.EndScreenHUD_C Referenced by K2Node_VariableSet_1409
+[2018.10.18-12.29.27:507][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:508][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:508][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:509][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:509][441]LoadErrors: Failed to load /Game/Assignment1/UI/EndScreenHUD.EndScreenHUD_C Referenced by K2Node_VariableGet_235
+[2018.10.18-12.29.27:509][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:510][441]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.29.27:510][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap.
+[2018.10.18-12.29.27:523][441]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Get : 'WinScreen' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.10.18-12.29.27:529][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a1d254700, Size=768
+[2018.10.18-12.29.27:529][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a63719f00, Size=768, Default__FirstPersonCharacter_C Function /Engine/Transient.REINST_FirstPersonCharacter_C_13:ExecuteUbergraph_FirstPersonCharacter
+[2018.10.18-12.29.27:539][441]LogBlueprint: Error: [Compiler FirstPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.29.27:541][441]LogBlueprint: Error: [Compiler FirstPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.29.27:544][441]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Could not find a variable named "WinScreen" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Get WinScreen
+[2018.10.18-12.29.27:544][441]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  End Screen  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2018.10.18-12.29.27:544][441]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2018.10.18-12.29.27:545][441]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  Health Bar  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2018.10.18-12.29.27:545][441]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2018.10.18-12.29.27:545][441]LogBlueprint: Warning: [Compiler FirstPersonCharacter] InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.10.18-12.29.27:550][441]LogBlueprint: Error: [Compiler FirstPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.29.27:556][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a63718a00, Size=720, Default__FirstPersonCharacter_C Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.10.18-12.29.27:559][441]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [0035.16] Compile of FirstPersonCharacter failed. 7 Fatal Issue(s) 3 Warning(s) [in 43 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2018.10.18-12.29.27:570][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a246d0aa0, Size=52, Default__FirstPersonHUD_C Function /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD
+[2018.10.18-12.29.27:578][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a246d0aa0, Size=52
+[2018.10.18-12.29.27:578][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a246d0aa0, Size=52, Default__FirstPersonHUD_C Function /Engine/Transient.REINST_FirstPersonHUD_C_15:ExecuteUbergraph_FirstPersonHUD
+[2018.10.18-12.29.27:582][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a246d0480, Size=52, Default__FirstPersonHUD_C Function /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD
+[2018.10.18-12.29.27:634][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a29a8ed40, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.29.27:638][441]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Get : 'LoseScreen' variable not found. Base class was probably changed. /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map
+[2018.10.18-12.29.27:639][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a29a8ed40, Size=40
+[2018.10.18-12.29.27:639][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a29a8ed40, Size=40, Default__Puzzle_Map_C Function /Engine/Transient.REINST_Puzzle_Map_C_19:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.29.27:641][441]LogBlueprint: Error: [Compiler PersistentLevel.Puzzle_Map] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.29.27:641][441]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Could not find a variable named "LoseScreen" in 'Puzzle_Map'.
+Make sure 'Puzzle_Map' has been compiled for  Get LoseScreen
+[2018.10.18-12.29.27:642][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a29a8ef48, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.29.27:642][441]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] [0035.24] Compile of PersistentLevel.Puzzle_Map failed. 1 Fatal Issue(s) 2 Warning(s) [in 5 ms] (/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map)
+[2018.10.18-12.29.27:670][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/initialShadingGroup'
+[2018.10.18-12.29.27:670][441]LoadErrors: Failed to load /Game/Assignment1/Materials/initialShadingGroup.initialShadingGroup Referenced by key
+[2018.10.18-12.29.27:671][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/initialShadingGroup' while loading NULL.
+[2018.10.18-12.29.27:671][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/initialShadingGroup'
+[2018.10.18-12.29.27:671][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/initialShadingGroup' while loading NULL.
+[2018.10.18-12.29.27:674][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Liquid'
+[2018.10.18-12.29.27:675][441]LoadErrors: Failed to load /Game/Assignment1/Materials/Liquid.Liquid Referenced by PotionA
+[2018.10.18-12.29.27:675][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Liquid' while loading NULL.
+[2018.10.18-12.29.27:676][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.29.27:676][441]LoadErrors: Failed to load /Game/Assignment1/Materials/Glass.Glass Referenced by PotionA
+[2018.10.18-12.29.27:676][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading NULL.
+[2018.10.18-12.29.27:677][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Cork'
+[2018.10.18-12.29.27:677][441]LoadErrors: Failed to load /Game/Assignment1/Materials/Cork.Cork Referenced by PotionA
+[2018.10.18-12.29.27:677][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Cork' while loading NULL.
+[2018.10.18-12.29.27:678][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Liquid'
+[2018.10.18-12.29.27:679][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Liquid' while loading NULL.
+[2018.10.18-12.29.27:679][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.29.27:680][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading NULL.
+[2018.10.18-12.29.27:680][441]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Cork'
+[2018.10.18-12.29.27:681][441]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Cork' while loading NULL.
+[2018.10.18-12.29.27:853][441]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.29.27:879][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a63719f00, Size=768
+[2018.10.18-12.29.27:880][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a6cedef00, Size=256
+[2018.10.18-12.29.27:880][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a2058e5c0, Size=448
+[2018.10.18-12.29.27:880][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a246d0aa0, Size=52
+[2018.10.18-12.29.27:880][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a29a8ed40, Size=40
+[2018.10.18-12.29.27:883][441]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-12.29.27:883][441]LightingResults: New page: Lighting Build
+[2018.10.18-12.29.27:885][441]LoadErrors: New page: Loading map: Puzzle_Map.umap
+[2018.10.18-12.29.27:887][441]MapCheck: New page: Map Check
+[2018.10.18-12.29.27:887][441]LightingResults: New page: Lighting Build
+[2018.10.18-12.29.28:037][441]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-12.29.28:093][441]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-12.29.28:333][441]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 239.801ms to complete.
+[2018.10.18-12.29.28:334][441]LogFileHelpers: Loading map 'Puzzle_Map' took 0.453
+[2018.10.18-12.29.29:123][472]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.18-12.29.29:163][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.29.29:164][472]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.18-12.29.29:179][472]LogPlayLevel: [PlayLevel] Compiling Puzzle_Map before play...
+[2018.10.18-12.29.29:188][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a29a8ef48, Size=40
+[2018.10.18-12.29.29:188][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a1d9dc630, Size=40, Default__Puzzle_Map_C Function /Engine/Transient.REINST_Puzzle_Map_C_23:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.29.29:189][472]LogBlueprint: Error: [Compiler PersistentLevel.Puzzle_Map] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.29.29:190][472]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Could not find a variable named "LoseScreen" in 'Puzzle_Map'.
+Make sure 'Puzzle_Map' has been compiled for  Get LoseScreen
+[2018.10.18-12.29.29:191][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a1d9dcd38, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.29.29:192][472]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] [0036.79] Compile of PersistentLevel.Puzzle_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 20 ms] (/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map)
+[2018.10.18-12.29.29:326][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a1d9dc630, Size=40
+[2018.10.18-12.29.29:326][472]LogPlayLevel: PlayLevel: Blueprint regeneration took 163 ms (1 blueprints)
+[2018.10.18-12.29.29:327][472]BlueprintLog: Blueprint Puzzle_Map failed to compile
+[2018.10.18-12.29.29:334][472]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.32:090][472]LogSlate: Window 'Message' being destroyed
+[2018.10.18-12.29.33:141][524]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.33:532][544]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.34:042][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.34:579][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.35:122][630]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.35:637][660]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.36:346][701]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.29.40:984][971]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.06:588][ 85]LogSlate: Window 'Message Log' being destroyed
+[2018.10.18-12.30.06:602][ 85]LogSlate: Window 'Message Log' being destroyed
+[2018.10.18-12.30.07:900][150]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.18-12.30.07:942][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.30.07:942][150]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.18-12.30.07:953][150]LogPlayLevel: [PlayLevel] Compiling Puzzle_Map before play...
+[2018.10.18-12.30.07:963][150]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a1d9dcd38, Size=40
+[2018.10.18-12.30.07:963][150]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a120a6ef8, Size=40, Default__Puzzle_Map_C Function /Engine/Transient.REINST_Puzzle_Map_C_27:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.30.07:965][150]LogBlueprint: Error: [Compiler PersistentLevel.Puzzle_Map] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.30.07:966][150]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Could not find a variable named "LoseScreen" in 'Puzzle_Map'.
+Make sure 'Puzzle_Map' has been compiled for  Get LoseScreen
+[2018.10.18-12.30.07:968][150]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a120a7c18, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.30.07:969][150]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] [0075.57] Compile of PersistentLevel.Puzzle_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 16 ms] (/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map)
+[2018.10.18-12.30.08:113][150]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a120a6ef8, Size=40
+[2018.10.18-12.30.08:114][150]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (1 blueprints)
+[2018.10.18-12.30.08:114][150]BlueprintLog: Blueprint Puzzle_Map failed to compile
+[2018.10.18-12.30.08:122][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.11:211][150]LogSlate: Window 'Message' being destroyed
+[2018.10.18-12.30.12:231][208]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.13:859][302]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.14:965][366]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.23:259][859]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.52:170][279]LogSlate: Window 'Message Log' being destroyed
+[2018.10.18-12.30.52:183][279]LogSlate: Window 'Message Log' being destroyed
+[2018.10.18-12.30.53:799][360]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.18-12.30.53:844][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.30.53:845][360]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.18-12.30.53:853][360]LogPlayLevel: [PlayLevel] Compiling Puzzle_Map before play...
+[2018.10.18-12.30.53:861][360]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a120a7c18, Size=40
+[2018.10.18-12.30.53:862][360]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a120a7c18, Size=40, Default__Puzzle_Map_C Function /Engine/Transient.REINST_Puzzle_Map_C_31:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.30.53:863][360]LogBlueprint: Error: [Compiler PersistentLevel.Puzzle_Map] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.30.53:864][360]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Could not find a variable named "LoseScreen" in 'Puzzle_Map'.
+Make sure 'Puzzle_Map' has been compiled for  Get LoseScreen
+[2018.10.18-12.30.53:865][360]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a120a4630, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.30.53:866][360]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] [0121.47] Compile of PersistentLevel.Puzzle_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 14 ms] (/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map)
+[2018.10.18-12.30.53:996][360]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a120a7c18, Size=40
+[2018.10.18-12.30.53:997][360]LogPlayLevel: PlayLevel: Blueprint regeneration took 151 ms (1 blueprints)
+[2018.10.18-12.30.53:997][360]BlueprintLog: Blueprint Puzzle_Map failed to compile
+[2018.10.18-12.30.54:005][360]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.55:326][360]LogSlate: Window 'Message' being destroyed
+[2018.10.18-12.30.55:340][360]PIE: New page: PIE session: Puzzle_Map (19 Oct 2018 10:30:55 am)
+[2018.10.18-12.30.55:340][360]LogPlayLevel: Creating play world package: /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map
+[2018.10.18-12.30.55:347][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006435s)
+[2018.10.18-12.30.55:348][360]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.30.55:348][360]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2018.10.18-12.30.55:349][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map to /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map (0.008143s)
+[2018.10.18-12.30.55:368][360]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-12.30.55:387][360]LogInit: FAudioDevice initialized.
+[2018.10.18-12.30.55:393][360]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.55:553][360]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.18-12.30.55:563][360]LogWorld: Bringing World /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map up for play (max tick rate 60) at 2018.10.18-23.30.55
+[2018.10.18-12.30.55:566][360]LogWorld: Bringing up level for play took: 0.004609
+[2018.10.18-12.30.55:589][360]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2018.10.18-12.30.55:598][360]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.30.55:599][360]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.10.18-12.30.55:599][360]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.30.55:600][360]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.18-12.30.55:602][360]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.30.55:603][360]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.10.18-12.30.55:610][360]PIE: Play in editor start time for /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map 0.385
+[2018.10.18-12.30.55:611][360]PIE: New page: PIE session: Puzzle_Map (19 Oct 2018 10:30:55 am)
+[2018.10.18-12.30.55:621][360]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.30.55:775][360]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.18-12.30.55:775][360]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.30.55:775][360]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.10.18-12.30.55:775][360]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.18-12.30.55:775][360]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.18-12.30.55:776][360]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.30.55:778][360]LogNet: Game client on port 17777, rate 10000
+[2018.10.18-12.30.55:783][360]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.558
+[2018.10.18-12.30.55:795][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.30.55:797][360]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59213
+[2018.10.18-12.30.55:798][360]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 206195139220168153214106148231012133105153042086174193226065
+[2018.10.18-12.30.55:818][360]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 206195139220168153214106148231012133105153042086174193226065
+[2018.10.18-12.30.55:981][360]LogRenderer: Reallocating scene render targets to support 856x480 Format 10 NumSamples 1 (Frame:1).
+[2018.10.18-12.30.56:223][361]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59213
+[2018.10.18-12.30.56:223][361]LogHandshake: SendChallengeAck. InCookie: 206195139220168153214106148231012133105153042086174193226065
+[2018.10.18-12.30.56:223][361]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59213
+[2018.10.18-12.30.56:223][361]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.30.56:224][361]LogNet: NotifyAcceptedConnection: Name: Puzzle_Map, TimeStamp: 10/18/18 23:30:56, [UNetConnection] RemoteAddr: 127.0.0.1:59213, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.30.56:225][361]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59213, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.30.56:226][361]LogNetVersion: FIT2097Assignment2 1.0.0.0, NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3846186648)
+[2018.10.18-12.30.56:226][361]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.30.56:242][362]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map: Accepted
+[2018.10.18-12.30.56:243][362]LogNet: Remote platform little endian=1
+[2018.10.18-12.30.56:243][362]LogNet: This platform little endian=1
+[2018.10.18-12.30.56:275][363]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.18-12.30.56:277][363]LogNet: Welcomed by server (Level: /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2018.10.18-12.30.56:291][363]LogLoad: LoadMap: 127.0.0.1:17777//Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2018.10.18-12.30.56:313][363]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.30.56:313][363]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.30.56:315][363]LogWorld: Bringing World /Game/Assignment2/Levels/UEDPIE_2_Puzzle_Map.Puzzle_Map up for play (max tick rate 60) at 2018.10.18-23.30.56
+[2018.10.18-12.30.56:315][363]LogWorld: Bringing up level for play took: 0.000919
+[2018.10.18-12.30.56:315][363]LogLoad: Took 0.024946 seconds to LoadMap(/Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map)
+[2018.10.18-12.30.56:331][364]LogNet: Client netspeed is 10000
+[2018.10.18-12.30.56:331][364]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.18-12.30.56:341][364]LogNet: Join succeeded: 257
+[2018.10.18-12.31.08:305][648]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.31.17:107][861]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.31.25:125][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.31.48:331][497]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 116 classes and 0 folders.
+[2018.10.18-12.31.48:801][497]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a84121f40, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.18-12.31.48:802][497]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a84121f38, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.18-12.31.49:457][497]LogSlate: Took 0.005372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.18-12.32.10:734][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.32.22:789][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.32.34:743][429]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2018.10.18-12.32.34:755][429]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2018.10.18-12.32.36:290][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.33.00:571][116]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.02, Realtime: 8.08. IpNetDriver_0
+[2018.10.18-12.33.00:573][116]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.02, Realtime: 8.08. IpNetDriver_1
+[2018.10.18-12.33.22:813][358]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.18-12.33.29:019][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.33.29:168][496]LogSlate: Window 'FIT2097Assignment2 Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.18-12.33.29:183][496]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.33.29:274][496]LogSlate: Window 'FIT2097Assignment2 Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.18-12.33.29:309][496]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.33.29:360][496]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59213, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.18-12.33.29:360][496]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59213, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.18-12.33.29
+[2018.10.18-12.33.29:360][496]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59213, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.18-12.33.29:360][496]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.18-12.33.29:360][496]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.18-12.33.29
+[2018.10.18-12.33.29:360][496]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.18-12.33.29:361][496]LogExit: GameNetDriver None shut down
+[2018.10.18-12.33.29:362][496]LogExit: GameNetDriver None shut down
+[2018.10.18-12.33.34:270][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.33.58:253][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.34.01:392][314]LogSlate: Took 0.011333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.18-12.34.05:899][535]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.18-12.34.07:680][614]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.34.09:184][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.34.48:093][741]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.18-12.34.48:130][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.34.48:132][741]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.18-12.34.48:134][741]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2018.10.18-12.34.48:437][741]LogPlayLevel: [PlayLevel] Compiling Puzzle_Map before play...
+[2018.10.18-12.34.48:440][741]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a120a4630, Size=40
+[2018.10.18-12.34.48:441][741]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a86195f58, Size=40, Default__Puzzle_Map_C Function /Engine/Transient.REINST_Puzzle_Map_C_51:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.34.48:441][741]LogBlueprint: Error: [Compiler PersistentLevel.Puzzle_Map] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.34.48:442][741]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Could not find a variable named "LoseScreen" in 'Puzzle_Map'.
+Make sure 'Puzzle_Map' has been compiled for  Get LoseScreen
+[2018.10.18-12.34.48:442][741]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a861974e8, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.34.48:443][741]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] [0356.04] Compile of PersistentLevel.Puzzle_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 5 ms] (/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map)
+[2018.10.18-12.34.48:535][741]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a86195f58, Size=40
+[2018.10.18-12.34.48:535][741]LogPlayLevel: PlayLevel: Blueprint regeneration took 404 ms (2 blueprints)
+[2018.10.18-12.34.48:535][741]BlueprintLog: Blueprint Puzzle_Map failed to compile
+[2018.10.18-12.34.55:530][741]LogSlate: Window 'Message' being destroyed
+[2018.10.18-12.34.55:538][741]PIE: New page: PIE session: Puzzle_Map (19 Oct 2018 10:34:55 am)
+[2018.10.18-12.34.55:538][741]LogPlayLevel: Creating play world package: /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map
+[2018.10.18-12.34.55:543][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004152s)
+[2018.10.18-12.34.55:543][741]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.34.55:544][741]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2018.10.18-12.34.55:544][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map to /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map (0.005133s)
+[2018.10.18-12.34.55:571][741]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-12.34.55:592][741]LogInit: FAudioDevice initialized.
+[2018.10.18-12.34.55:596][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.34.55:755][741]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.18-12.34.55:757][741]LogWorld: Bringing World /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map up for play (max tick rate 60) at 2018.10.18-23.34.55
+[2018.10.18-12.34.55:757][741]LogWorld: Bringing up level for play took: 0.001310
+[2018.10.18-12.34.55:761][741]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.34.55:761][741]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.10.18-12.34.55:761][741]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.34.55:761][741]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.18-12.34.55:761][741]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.34.55:761][741]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2018.10.18-12.34.55:766][741]PIE: Play in editor start time for /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map 0.542
+[2018.10.18-12.34.55:768][741]PIE: New page: PIE session: Puzzle_Map (19 Oct 2018 10:34:55 am)
+[2018.10.18-12.34.55:779][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.34.55:977][741]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.18-12.34.55:977][741]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.34.55:977][741]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.10.18-12.34.55:977][741]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.18-12.34.55:977][741]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.18-12.34.55:978][741]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.34.55:978][741]LogNet: Game client on port 17777, rate 10000
+[2018.10.18-12.34.55:982][741]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.758
+[2018.10.18-12.34.55:998][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.34.55:998][741]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60798
+[2018.10.18-12.34.55:998][741]LogHandshake: SendConnectChallenge. Timestamp: 0.027526, Cookie: 041111219182108074038111023209103134114093248222176023136228
+[2018.10.18-12.34.56:000][741]LogHandshake: SendChallengeResponse. Timestamp: 0.027526, Cookie: 041111219182108074038111023209103134114093248222176023136228
+[2018.10.18-12.34.56:353][742]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 8.26, Realtime: 0.35. IpNetDriver_2
+[2018.10.18-12.34.56:353][742]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60798
+[2018.10.18-12.34.56:353][742]LogHandshake: SendChallengeAck. InCookie: 041111219182108074038111023209103134114093248222176023136228
+[2018.10.18-12.34.56:353][742]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60798
+[2018.10.18-12.34.56:353][742]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.34.56:353][742]LogNet: NotifyAcceptedConnection: Name: Puzzle_Map, TimeStamp: 10/18/18 23:34:56, [UNetConnection] RemoteAddr: 127.0.0.1:60798, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.34.56:353][742]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60798, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.34.56:355][742]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 8.26, Realtime: 0.36. IpNetDriver_3
+[2018.10.18-12.34.56:356][742]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.34.56:403][743]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map: Accepted
+[2018.10.18-12.34.56:403][743]LogNet: Remote platform little endian=1
+[2018.10.18-12.34.56:403][743]LogNet: This platform little endian=1
+[2018.10.18-12.34.56:485][744]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.18-12.34.56:486][744]LogNet: Welcomed by server (Level: /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2018.10.18-12.34.56:495][744]LogLoad: LoadMap: 127.0.0.1:17777//Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2018.10.18-12.34.56:523][744]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.34.56:523][744]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.34.56:525][744]LogWorld: Bringing World /Game/Assignment2/Levels/UEDPIE_2_Puzzle_Map.Puzzle_Map up for play (max tick rate 60) at 2018.10.18-23.34.56
+[2018.10.18-12.34.56:525][744]LogWorld: Bringing up level for play took: 0.000960
+[2018.10.18-12.34.56:525][744]LogLoad: Took 0.029665 seconds to LoadMap(/Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map)
+[2018.10.18-12.34.56:555][745]LogNet: Client netspeed is 10000
+[2018.10.18-12.34.56:555][745]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.18-12.34.56:558][745]LogNet: Join succeeded: 259
+[2018.10.18-12.35.00:865][849]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.35.19:663][486]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.02, Realtime: 8.74. IpNetDriver_2
+[2018.10.18-12.35.19:664][486]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.02, Realtime: 8.74. IpNetDriver_3
+[2018.10.18-12.35.27:117][646]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.10.18-12.35.27:142][646]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.10.18-12.35.33:091][723]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.35.47:938][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.36.07:302][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.36.07:355][484]LogSlate: Window 'FIT2097Assignment2 Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.18-12.36.07:427][484]LogSlate: Window 'FIT2097Assignment2 Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.18-12.36.07:468][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.36.07:513][484]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60798, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.18-12.36.07:514][484]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60798, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 12, Time: 2018.10.18-12.36.07
+[2018.10.18-12.36.07:514][484]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60798, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.18-12.36.07:514][484]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.18-12.36.07:514][484]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 12, Time: 2018.10.18-12.36.07
+[2018.10.18-12.36.07:514][484]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.18-12.36.07:523][484]LogExit: GameNetDriver None shut down
+[2018.10.18-12.36.07:523][484]LogExit: GameNetDriver None shut down
+[2018.10.18-12.36.12:968][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.36.18:885][868]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.10.18-12.37.33:413][211]LogHotReload: New module detected: UE4Editor-FIT2097Assignment2-9229.dll
+[2018.10.18-12.37.35:124][217]LogHotReload: Starting Hot-Reload from IDE
+[2018.10.18-12.37.35:254][217]LogClass: EItemType HotReload.
+[2018.10.18-12.37.35:264][217]LogContentBrowser: Native class hierarchy updated for 'FIT2097Assignment2' in 0.0029 seconds. Added 6 classes and 2 folders.
+[2018.10.18-12.37.35:267][217]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2018.10.18-12.37.35:804][217]LogContentBrowser: Native class hierarchy populated in 0.0202 seconds. Added 2459 classes and 562 folders.
+[2018.10.18-12.37.35:815][217]Display: HotReload took  0.7s.
+[2018.10.18-12.37.40:628][309]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.18-12.37.40:688][309]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.37.40:688][309]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.18-12.37.40:704][309]LogPlayLevel: [PlayLevel] Compiling Puzzle_Map before play...
+[2018.10.18-12.37.40:714][309]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a861974e8, Size=40
+[2018.10.18-12.37.40:714][309]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a786fe228, Size=40, Default__Puzzle_Map_C Function /Engine/Transient.REINST_Puzzle_Map_C_63:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.37.40:717][309]LogBlueprint: Error: [Compiler PersistentLevel.Puzzle_Map] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.37.40:718][309]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Could not find a variable named "LoseScreen" in 'Puzzle_Map'.
+Make sure 'Puzzle_Map' has been compiled for  Get LoseScreen
+[2018.10.18-12.37.40:720][309]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a786fe868, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.37.40:721][309]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] [0528.32] Compile of PersistentLevel.Puzzle_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 18 ms] (/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map)
+[2018.10.18-12.37.40:963][309]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a786fe228, Size=40
+[2018.10.18-12.37.40:995][309]LogPlayLevel: PlayLevel: Blueprint regeneration took 307 ms (1 blueprints)
+[2018.10.18-12.37.40:995][309]BlueprintLog: Blueprint Puzzle_Map failed to compile
+[2018.10.18-12.37.43:207][309]LogSlate: Window 'Message' being destroyed
+[2018.10.18-12.37.43:216][309]PIE: New page: PIE session: Puzzle_Map (19 Oct 2018 10:37:43 am)
+[2018.10.18-12.37.43:217][309]LogPlayLevel: Creating play world package: /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map
+[2018.10.18-12.37.43:223][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005969s)
+[2018.10.18-12.37.43:224][309]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.37.43:224][309]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2018.10.18-12.37.43:224][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map to /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map (0.007593s)
+[2018.10.18-12.37.43:260][309]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-12.37.43:283][309]LogInit: FAudioDevice initialized.
+[2018.10.18-12.37.43:287][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.37.43:591][309]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.18-12.37.43:593][309]LogWorld: Bringing World /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map up for play (max tick rate 60) at 2018.10.18-23.37.43
+[2018.10.18-12.37.43:594][309]LogWorld: Bringing up level for play took: 0.001569
+[2018.10.18-12.37.43:599][309]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.37.43:599][309]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.10.18-12.37.43:599][309]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.37.43:599][309]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.18-12.37.43:600][309]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.37.43:600][309]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2018.10.18-12.37.43:605][309]PIE: Play in editor start time for /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map 0.381
+[2018.10.18-12.37.43:608][309]PIE: New page: PIE session: Puzzle_Map (19 Oct 2018 10:37:43 am)
+[2018.10.18-12.37.43:620][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.37.43:877][309]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.18-12.37.43:877][309]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.37.43:877][309]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.10.18-12.37.43:877][309]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.18-12.37.43:877][309]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.18-12.37.43:878][309]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.37.43:878][309]LogNet: Game client on port 17777, rate 10000
+[2018.10.18-12.37.43:884][309]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.66
+[2018.10.18-12.37.43:899][309]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.37.43:899][309]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51151
+[2018.10.18-12.37.43:899][309]LogHandshake: SendConnectChallenge. Timestamp: 0.026780, Cookie: 040014109123202036220131199188171135015068124150181075051252
+[2018.10.18-12.37.43:901][309]LogHandshake: SendChallengeResponse. Timestamp: 0.026780, Cookie: 040014109123202036220131199188171135015068124150181075051252
+[2018.10.18-12.37.44:429][310]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51151
+[2018.10.18-12.37.44:429][310]LogHandshake: SendChallengeAck. InCookie: 040014109123202036220131199188171135015068124150181075051252
+[2018.10.18-12.37.44:429][310]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51151
+[2018.10.18-12.37.44:429][310]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.37.44:429][310]LogNet: NotifyAcceptedConnection: Name: Puzzle_Map, TimeStamp: 10/18/18 23:37:44, [UNetConnection] RemoteAddr: 127.0.0.1:51151, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.37.44:430][310]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51151, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.37.44:432][310]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.37.44:451][311]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map: Accepted
+[2018.10.18-12.37.44:451][311]LogNet: Remote platform little endian=1
+[2018.10.18-12.37.44:451][311]LogNet: This platform little endian=1
+[2018.10.18-12.37.44:487][312]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.18-12.37.44:489][312]LogNet: Welcomed by server (Level: /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2018.10.18-12.37.44:503][312]LogLoad: LoadMap: 127.0.0.1:17777//Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2018.10.18-12.37.44:542][312]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.37.44:543][312]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.37.44:545][312]LogWorld: Bringing World /Game/Assignment2/Levels/UEDPIE_2_Puzzle_Map.Puzzle_Map up for play (max tick rate 60) at 2018.10.18-23.37.44
+[2018.10.18-12.37.44:546][312]LogWorld: Bringing up level for play took: 0.001530
+[2018.10.18-12.37.44:546][312]LogLoad: Took 0.043047 seconds to LoadMap(/Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map)
+[2018.10.18-12.37.44:569][313]LogNet: Client netspeed is 10000
+[2018.10.18-12.37.44:570][313]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.18-12.37.44:573][313]LogNet: Join succeeded: 261
+[2018.10.18-12.38.03:197][346]LogWindows: Error: === Critical error: ===
+[2018.10.18-12.38.03:207][346]LogWindows: Error: 
+[2018.10.18-12.38.03:208][346]LogWindows: Error: Fatal error!
+[2018.10.18-12.38.03:208][346]LogWindows: Error: 
+[2018.10.18-12.38.03:208][346]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2018.10.18-12.38.03:208][346]LogWindows: Error: 
+[2018.10.18-12.38.03:208][346]LogWindows: Error: [Callstack] 0x000000008DDE151B ucrtbase.dll!UnknownFunction []
+[2018.10.18-12.38.03:208][346]LogWindows: Error: [Callstack] 0x000000008DDCC966 ucrtbase.dll!UnknownFunction []
+[2018.10.18-12.38.03:208][346]LogWindows: Error: [Callstack] 0x000000008DDCBD11 ucrtbase.dll!UnknownFunction []
+[2018.10.18-12.38.03:208][346]LogWindows: Error: [Callstack] 0x00000000487F9E88 UE4Editor-Core.dll!FString::PrintfImpl() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\containers\string.cpp:1312]
+[2018.10.18-12.38.03:208][346]LogWindows: Error: [Callstack] 0x000000005D805990 UE4Editor-FIT2097Assignment2-9229.dll!AFIT2097Assignment2Character::ServerCheckAction_Implementation() [c:\users\matthew chu\documents\fit2097\fit2097 assignment 2\fit2097assignment2\source\fit2097assignment2\fit2097assignment2character.cpp:484]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x000000005D809F58 UE4Editor-FIT2097Assignment2-9229.dll!AFIT2097Assignment2Character::execServerCheckAction() []
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x00000000491FE094 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4551]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x00000000493E9D73 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1345]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000043CFCCFB UE4Editor-Engine.dll!AActor::ProcessEvent() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\actor.cpp:687]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x000000005D809979 UE4Editor-FIT2097Assignment2-9229.dll!AFIT2097Assignment2Character::ServerCheckAction() []
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044F01166 UE4Editor-Engine.dll!FInputActionUnifiedDelegate::Execute() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\classes\components\inputcomponent.h:204]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044F330DB UE4Editor-Engine.dll!UPlayerInput::ProcessInputStack() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\userinterface\playerinput.cpp:1225]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044A6A6A9 UE4Editor-Engine.dll!APlayerController::ProcessPlayerInput() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\playercontroller.cpp:2471]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044A7EF05 UE4Editor-Engine.dll!APlayerController::TickPlayerInput() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\playercontroller.cpp:4232]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044A6816B UE4Editor-Engine.dll!APlayerController::PlayerTick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\playercontroller.cpp:2135]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044A7E0AC UE4Editor-Engine.dll!APlayerController::TickActor() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\playercontroller.cpp:4327]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000043CD00E4 UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\actor.cpp:134]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044DD70BB UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:273]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044DDC793 UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:829]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x00000000487FB713 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:665]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x00000000487FBD3A UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:574]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x000000004881ECFE UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1355]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044DFD771 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:542]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x0000000044E03292 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1449]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x000000004465C304 UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:770]
+[2018.10.18-12.38.03:209][346]LogWindows: Error: [Callstack] 0x000000004466756B UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:1429]
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x0000000041F5D781 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1693]
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x00000000427F9626 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:401]
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x000000002A215EAC UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3339]
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x000000002A226BD0 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x000000002A226C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x000000002A234177 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x000000002A235B87 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x0000000090703034 KERNEL32.DLL!UnknownFunction []
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x0000000091151461 ntdll.dll!UnknownFunction []
+[2018.10.18-12.38.03:210][346]LogWindows: Error: [Callstack] 0x0000000091151461 ntdll.dll!UnknownFunction []
+[2018.10.18-12.38.03:210][346]LogWindows: Error: 
+[2018.10.18-12.38.03:261][346]LogExit: Executing StaticShutdownAfterError
+[2018.10.18-12.38.03:829][346]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.10.18-12.38.03:832][346]Log file closed, 10/18/18 23:38:03

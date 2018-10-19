@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097Assignment2_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FIT2097Assignment2",
 				PKG_CompiledIn | 0x00000000,
-				0xF4B147A2,
-				0x9F5383C1,
+				0xD3C98A25,
+				0x03B348A6,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

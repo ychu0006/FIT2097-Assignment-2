@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Engine.h"
 #include "GameFramework/GameModeBase.h"
 #include "FIT2097Assignment2GameMode.generated.h"
 

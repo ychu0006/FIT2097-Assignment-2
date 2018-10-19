@@ -2,8 +2,11 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Engine.h"
 #include "GameFramework/Character.h"
+#include "MyObject.h"
+#include "UserWidget.h"
+#include "Item.h"
 #include "FIT2097Assignment2Character.generated.h"
 
 class UInputComponent;
@@ -50,6 +53,7 @@ public:
 
 protected:
 	virtual void BeginPlay();
+	virtual void Tick(float deltaTime) override;
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
@@ -138,5 +142,75 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+//***********************************************************************************************
+//** My code
+//***********************************************************************************************
+public:
+	UFUNCTION(BlueprintCallable, Category = "Action")
+	void CheckAction();
+
+	UFUNCTION(Reliable, Server, WithValidation)
+	void ServerCheckAction(AMyObject* object);
+
+	bool Trace(
+		UWorld* World,
+		TArray<AActor*>& ActorsToIgnore,
+		const FVector& Start,
+		const FVector& End,
+		FHitResult& HitOut,
+		ECollisionChannel CollisionChannel,
+		bool ReturnPhysMat
+	);
+
+	void CallMyTrace();
+
+	void ProcessTraceHit(FHitResult& HitOut);
+
+	void ClearObjectInfo();
+
+	AMyObject* CurrentObject;
+
+	bool ObjectFound;
+
+	void Interact();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float CurrentHealth;
+
+	UFUNCTION(BlueprintGetter)
+	float GetCurrentHealth();
+
+	UFUNCTION(BlueprintSetter)
+	void SetCurrentHealth(float NewCurrentHealth);
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Gameplay)
+	float MaxHealth;
+
+	UFUNCTION(BlueprintGetter)
+	float GetMaxHealth();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	bool HasKey;
+
+	UFUNCTION(BlueprintGetter)
+	bool GetHasKey();
+
+	UFUNCTION(BlueprintSetter)
+	void SetHasKey(bool NewHasKey);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	bool HasFuse;
+
+	UFUNCTION(BlueprintGetter)
+	bool GetHasFuse();
+
+	UFUNCTION(BlueprintSetter)
+	void SetHasFuse(bool NewHasFuse);
+
+	UFUNCTION(BlueprintCallable)
+	void PauseGame();
+
+	UFUNCTION(BlueprintCallable)
+	void UnPauseGame();
 };
 

@@ -2,7 +2,7 @@
 
 #pragma once 
 
-#include "CoreMinimal.h"
+#include "Engine.h"
 #include "GameFramework/HUD.h"
 #include "FIT2097Assignment2HUD.generated.h"
 

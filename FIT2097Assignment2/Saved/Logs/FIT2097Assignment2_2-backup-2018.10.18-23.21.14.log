@@ -1,0 +1,833 @@
+﻿Log file open, 10/18/18 23:11:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FIT2097Assignment2
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1868115147) SRandInit(-1868115146).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.798469
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.627s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Binaries/Win64/UE4Editor-FIT2097Assignment2-6694.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am MatthewChuHPSpectre (192.168.56.1:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.011s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.18-12.11.36:646][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-12.11.36:646][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.18-12.11.36:712][  0]LogInit: Computer: MATTHEWCHUHPSPE
+[2018.10.18-12.11.36:713][  0]LogInit: User: MatthewChu
+[2018.10.18-12.11.36:713][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.18-12.11.36:713][  0]LogInit: High frequency timer resolution =1.757813 MHz
+[2018.10.18-12.11.36:714][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.10.18-12.11.36:714][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.18-12.11.36:714][  0]LogMemory: Process Physical Memory: 273.96 MB used, 273.96 MB peak
+[2018.10.18-12.11.36:714][  0]LogMemory: Process Virtual Memory: 264.80 MB used, 264.80 MB peak
+[2018.10.18-12.11.36:714][  0]LogMemory: Physical Memory: 5218.50 MB used,  2815.09 MB free, 8033.59 MB total
+[2018.10.18-12.11.36:714][  0]LogMemory: Virtual Memory: 4795.51 MB used,  2815.09 MB free, 134217728.00 MB total
+[2018.10.18-12.11.36:867][  0]LogInit: Using OS detected language (en-US).
+[2018.10.18-12.11.36:867][  0]LogInit: Using OS detected locale (en-AU).
+[2018.10.18-12.11.37:073][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.18-12.11.37:967][  0]LogStreaming: Display: Took  1.102s to EndInitTextLocalization.
+[2018.10.18-12.11.37:968][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.18-12.11.38:089][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.18-12.11.38:089][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.18-12.11.42:226][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.18-12.11.42:294][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.10.18-12.11.42:294][  0]LogD3D11RHI:       128/0/4016 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.10.18-12.11.42:300][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.18-12.11.42:300][  0]LogD3D11RHI:       0/0/4016 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.18-12.11.42:300][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.18-12.11.42:311][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.18-12.11.42:311][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.18-12.11.42:311][  0]LogWindows: EnumDisplayDevices:
+[2018.10.18-12.11.42:312][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.10.18-12.11.42:312][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.10.18-12.11.42:313][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.10.18-12.11.42:313][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.18-12.11.42:313][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2018.10.18-12.11.42:313][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.18-12.11.42:313][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.18-12.11.42:313][  0]LogRHI: Texture pool is 1495 MB (70% of 2136 MB)
+[2018.10.18-12.11.42:372][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.18-12.11.42:392][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2018.10.18-12.11.42:408][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Intermediate/Shaders/WorkingDirectory/11244/).
+[2018.10.18-12.11.42:409][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matthew Chu/AppData/Local/Temp/UnrealShaderWorkingDir/237FE07C442BC8FC4B6716A0DA22B289/'.
+[2018.10.18-12.11.43:277][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.18-12.11.43:305][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.18-12.11.43:332][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.18-12.11.43:357][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.18-12.11.43:394][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.18-12.11.43:421][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.18-12.11.43:447][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.18-12.11.43:473][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.18-12.11.43:488][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.18-12.11.43:512][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.18-12.11.43:536][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.18-12.11.43:563][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.18-12.11.43:588][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.10.18-12.11.43:610][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.18-12.11.43:632][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.18-12.11.43:675][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.18-12.11.43:675][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.18-12.11.43:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-12.11.43:711][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.18-12.11.43:772][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-12.11.43:791][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-12.11.43:810][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.18-12.11.43:830][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.18-12.11.43:852][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.18-12.11.43:879][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.18-12.11.43:879][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.18-12.11.44:234][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.18-12.11.44:234][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.18-12.11.44:234][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.18-12.11.46:727][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.18-12.11.47:214][  0]LogDerivedDataCache: Loaded boot cache 0.49s 79MB C:/Users/Matthew Chu/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.18-12.11.47:214][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Matthew Chu/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.10.18-12.11.47:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.18-12.11.47:214][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.18-12.11.47:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.18-12.11.47:214][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.18-12.11.47:235][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.18-12.11.47:250][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew Chu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.18-12.11.47:250][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.18-12.11.47:250][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.18-12.11.47:264][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.18-12.11.47:272][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.18-12.11.47:293][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-12.11.47:293][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-12.11.48:888][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
+[2018.10.18-12.11.49:497][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-12.11.49:819][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.18-12.11.49:829][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.18-12.11.49:829][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.18-12.11.49:829][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.18-12.11.49:830][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.18-12.11.49:830][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.18-12.11.49:910][  0]LogNetVersion: FIT2097Assignment2 , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 789636822)
+[2018.10.18-12.11.51:143][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.276446 seconds
+[2018.10.18-12.11.51:150][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.10.18-12.11.51:150][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.10.18-12.11.51:150][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.18-12.11.58:260][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.18-12.11.58:321][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.18-12.11.59:030][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f86cf510, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.18-12.11.59:053][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f86cf510, Size=72
+[2018.10.18-12.11.59:053][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f83f31f0, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.18-12.11.59:074][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f93073d0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.18-12.11.59:196][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f8aa04c0, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.18-12.11.59:211][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f8aa04c0, Size=64
+[2018.10.18-12.11.59:211][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f92d3080, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_1:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.18-12.11.59:224][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f9ef6f70, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.18-12.11.59:868][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [9.289953ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.10.18-12.11.59:913][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [20.329239ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.10.18-12.11.59:938][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [6.277118ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.10.18-12.12.00:295][  0]SourceControl: Source control is disabled
+[2018.10.18-12.12.00:295][  0]SourceControl: Source control is disabled
+[2018.10.18-12.12.00:349][  0]SourceControl: Source control is disabled
+[2018.10.18-12.12.00:399][  0]SourceControl: Source control is disabled
+[2018.10.18-12.12.01:611][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.18-12.12.02:072][  0]LogOcInput: OculusInput pre-init called
+[2018.10.18-12.12.02:315][  0]LogEngine: Initializing Engine...
+[2018.10.18-12.12.02:318][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.18-12.12.02:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-12.12.02:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-12.12.02:673][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.18-12.12.02:790][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-12.12.02:825][  0]LogInit: FAudioDevice initialized.
+[2018.10.18-12.12.02:916][  0]LogDerivedDataCache: Saved boot cache 0.09s 79MB C:/Users/Matthew Chu/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.18-12.12.02:941][  0]LogInit: Texture streaming: Enabled
+[2018.10.18-12.12.02:999][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.18-12.12.03:045][  0]LogInit: Transaction tracking system initialized
+[2018.10.18-12.12.03:142][  0]BlueprintLog: New page: Editor Load
+[2018.10.18-12.12.03:543][  0]LocalizationService: Localization service is disabled
+[2018.10.18-12.12.03:848][  0]LogConsoleResponse: Display: 
+[2018.10.18-12.12.04:231][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.18-12.12.04:232][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.18-12.12.04:232][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.18-12.12.04:232][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-12.12.04:232][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-12.12.04:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/' took 0.04s
+[2018.10.18-12.12.07:202][  0]SourceControl: Source control is disabled
+[2018.10.18-12.12.07:378][  0]LogSlate: Took 0.026881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.18-12.12.13:272][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.10.18-12.12.13:274][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.18-12.12.13:290][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.18-12.12.14:605][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2018.10.18-12.12.14:606][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.18-12.12.14:656][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.18-12.12.14:671][  0]LightingResults: New page: Lighting Build
+[2018.10.18-12.12.14:678][  0]MapCheck: New page: Map Check
+[2018.10.18-12.12.14:678][  0]LightingResults: New page: Lighting Build
+[2018.10.18-12.12.14:702][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f83f31f0, Size=72
+[2018.10.18-12.12.14:702][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f92d3080, Size=64
+[2018.10.18-12.12.14:987][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.18-12.12.15:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-12.12.15:025][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-12.12.15:172][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 147.864ms to complete.
+[2018.10.18-12.12.15:172][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.515
+[2018.10.18-12.12.15:323][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_5794_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_4de0_0///####STATCAT_Advanced####
+[2018.10.18-12.12.15:323][  0]LogCollectionManager: Loaded 0 collections in 0.003412 seconds
+[2018.10.18-12.12.15:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Saved/Collections/' took 0.01s
+[2018.10.18-12.12.15:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Developers/MatthewChu/Collections/' took 0.01s
+[2018.10.18-12.12.15:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Collections/' took 0.01s
+[2018.10.18-12.12.15:395][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.18-12.12.15:409][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2458 classes and 560 folders.
+[2018.10.18-12.12.15:429][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.10.18-12.12.16:064][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.10.18-12.12.16:081][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2018.10.18-12.12.16:322][  0]LogSlate: Took 0.000358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.18-12.12.16:339][  0]LogSlate: Took 0.010266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.18-12.12.16:495][  0]LogRenderer: Reallocating scene render targets to support 684x340 Format 10 NumSamples 1 (Frame:1).
+[2018.10.18-12.12.16:966][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.10.18-12.12.16:966][  0]LogLoad: (Engine Initialization) Total time: 51.90 seconds
+[2018.10.18-12.12.16:966][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.18-12.12.17:007][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.18-12.12.17:047][  0]LogSlate: Took 0.006565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.18-12.12.17:066][  1]LogAssetRegistry: Asset discovery search completed in 28.2019 seconds
+[2018.10.18-12.12.17:068][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.18-12.12.17:068][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2018.10.18-12.12.18:312][ 21]LogSlate: Took 0.000593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.18-12.12.20:718][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-12.12.20:995][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x000002569e0b7800, Size=256, Default__FirstPersonProjectile_C Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile
+[2018.10.18-12.12.21:005][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002569e0b7800, Size=256
+[2018.10.18-12.12.21:005][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x000002569e0b7800, Size=256, Default__FirstPersonProjectile_C Function /Engine/Transient.REINST_FirstPersonProjectile_C_9:ExecuteUbergraph_FirstPersonProjectile
+[2018.10.18-12.12.21:011][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x000002569e0b5100, Size=256, Default__FirstPersonProjectile_C Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile
+[2018.10.18-12.12.21:023][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:023][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.12.21:024][ 78]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/Assignment1/UI/EndScreenHUD
+[2018.10.18-12.12.21:025][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:026][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.12.21:026][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:026][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.12.21:027][ 78]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/Assignment1/UI/HealthBarHUD
+[2018.10.18-12.12.21:049][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:050][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.12.21:050][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:051][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2018.10.18-12.12.21:055][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x000002569e129600, Size=768, Default__FirstPersonCharacter_C Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.10.18-12.12.21:056][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:056][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:056][ 78]LoadErrors: Error: /Game/Assignment2/Blueprints/BP_Door : Can't find file for asset. /Game/Assignment1/UI/EndScreenHUD
+[2018.10.18-12.12.21:056][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:057][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:057][ 78]LoadErrors: Error: /Game/Assignment2/Blueprints/BP_Door : Can't find file for asset. /Game/Assignment1/UI/HealthBarHUD
+[2018.10.18-12.12.21:057][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:057][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:058][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:058][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:058][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:059][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:059][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:060][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:060][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:060][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:065][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:065][ 78]LoadErrors: Failed to load /Game/Assignment1/UI/HealthBarHUD.HealthBarHUD_C Referenced by FirstPersonCharacter
+[2018.10.18-12.12.21:066][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:067][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:067][ 78]LoadErrors: Failed to load /Game/Assignment1/UI/EndScreenHUD.EndScreenHUD_C Referenced by FirstPersonCharacter
+[2018.10.18-12.12.21:068][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:080][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:081][ 78]LoadErrors: Failed to load /Game/Assignment1/UI/HealthBarHUD.HealthBarHUD_C Referenced by K2Node_CreateWidget_1
+[2018.10.18-12.12.21:081][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:081][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:082][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:083][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:083][ 78]LoadErrors: Failed to load /Game/Assignment1/UI/HealthBarHUD.HealthBarHUD_C Referenced by K2Node_VariableSet_940
+[2018.10.18-12.12.21:084][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:085][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/HealthBarHUD'
+[2018.10.18-12.12.21:085][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/HealthBarHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:088][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:088][ 78]LoadErrors: Failed to load /Game/Assignment1/UI/EndScreenHUD.EndScreenHUD_C Referenced by K2Node_CreateWidget_18
+[2018.10.18-12.12.21:088][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:089][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:089][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:090][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:091][ 78]LoadErrors: Failed to load /Game/Assignment1/UI/EndScreenHUD.EndScreenHUD_C Referenced by K2Node_VariableSet_1409
+[2018.10.18-12.12.21:091][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:092][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:092][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:093][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:093][ 78]LoadErrors: Failed to load /Game/Assignment1/UI/EndScreenHUD.EndScreenHUD_C Referenced by K2Node_VariableGet_235
+[2018.10.18-12.12.21:093][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:094][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/UI/EndScreenHUD'
+[2018.10.18-12.12.21:095][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/UI/EndScreenHUD' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Door.uasset.
+[2018.10.18-12.12.21:114][ 78]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Get : 'WinScreen' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.10.18-12.12.21:118][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002569e129600, Size=768
+[2018.10.18-12.12.21:119][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256a9322e00, Size=768, Default__FirstPersonCharacter_C Function /Engine/Transient.REINST_FirstPersonCharacter_C_11:ExecuteUbergraph_FirstPersonCharacter
+[2018.10.18-12.12.21:131][ 78]LogBlueprint: Error: [Compiler FirstPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.12.21:134][ 78]LogBlueprint: Error: [Compiler FirstPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.12.21:138][ 78]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Could not find a variable named "WinScreen" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Get WinScreen
+[2018.10.18-12.12.21:138][ 78]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  End Screen  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2018.10.18-12.12.21:139][ 78]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2018.10.18-12.12.21:140][ 78]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  Health Bar  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2018.10.18-12.12.21:140][ 78]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2018.10.18-12.12.21:141][ 78]LogBlueprint: Warning: [Compiler FirstPersonCharacter] InputAction Event references unknown Action 'Pause' for  InputAction Pause
+[2018.10.18-12.12.21:147][ 78]LogBlueprint: Error: [Compiler FirstPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.12.21:155][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256a9321000, Size=720, Default__FirstPersonCharacter_C Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.10.18-12.12.21:159][ 78]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [0056.09] Compile of FirstPersonCharacter failed. 7 Fatal Issue(s) 3 Warning(s) [in 54 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2018.10.18-12.12.21:305][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256a926ecc0, Size=448, Default__BP_Door_C Function /Game/Assignment2/Blueprints/BP_Door.BP_Door_C:ExecuteUbergraph_BP_Door
+[2018.10.18-12.12.21:322][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256a926ecc0, Size=448
+[2018.10.18-12.12.21:322][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256a924ae80, Size=448, Default__BP_Door_C Function /Engine/Transient.REINST_BP_Door_C_13:ExecuteUbergraph_BP_Door
+[2018.10.18-12.12.21:335][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256a92482c0, Size=448, Default__BP_Door_C Function /Game/Assignment2/Blueprints/BP_Door.BP_Door_C:ExecuteUbergraph_BP_Door
+[2018.10.18-12.12.22:064][ 78]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
+[2018.10.18-12.12.22:463][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256b78ea498, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.18-12.12.22:464][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256b78ea490, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.18-12.12.23:126][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/initialShadingGroup'
+[2018.10.18-12.12.23:126][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/initialShadingGroup' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/key.uasset.
+[2018.10.18-12.12.23:126][ 78]LoadErrors: Error: /Game/Assignment2/Materials/key : Can't find file for asset. /Game/Assignment1/Materials/initialShadingGroup
+[2018.10.18-12.12.23:127][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/initialShadingGroup'
+[2018.10.18-12.12.23:127][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/initialShadingGroup' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/key.uasset.
+[2018.10.18-12.12.23:142][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Cork'
+[2018.10.18-12.12.23:142][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Cork' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.12.23:142][ 78]LoadErrors: Error: /Game/Assignment2/Materials/PotionA : Can't find file for asset. /Game/Assignment1/Materials/Cork
+[2018.10.18-12.12.23:142][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.23:142][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.12.23:142][ 78]LoadErrors: Error: /Game/Assignment2/Materials/PotionA : Can't find file for asset. /Game/Assignment1/Materials/Glass
+[2018.10.18-12.12.23:142][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Liquid'
+[2018.10.18-12.12.23:143][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Liquid' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.12.23:143][ 78]LoadErrors: Error: /Game/Assignment2/Materials/PotionA : Can't find file for asset. /Game/Assignment1/Materials/Liquid
+[2018.10.18-12.12.23:143][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Cork'
+[2018.10.18-12.12.23:143][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Cork' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.12.23:143][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.23:143][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.12.23:143][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Liquid'
+[2018.10.18-12.12.23:143][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Liquid' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Materials/PotionA.uasset.
+[2018.10.18-12.12.23:161][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256bab36780, Size=448, Default__Item_C Function /Game/Assignment2/Blueprints/Item.Item_C:ExecuteUbergraph_Item
+[2018.10.18-12.12.23:168][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256bab36780, Size=448
+[2018.10.18-12.12.23:168][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256bab36780, Size=448, Default__Item_C Function /Engine/Transient.REINST_Item_C_27:ExecuteUbergraph_Item
+[2018.10.18-12.12.23:175][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256bab357c0, Size=448, Default__Item_C Function /Game/Assignment2/Blueprints/Item.Item_C:ExecuteUbergraph_Item
+[2018.10.18-12.12.23:178][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Liquid'
+[2018.10.18-12.12.23:178][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/Liquid.Liquid Referenced by PotionA
+[2018.10.18-12.12.23:178][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Liquid' while loading NULL.
+[2018.10.18-12.12.23:179][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.23:179][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/Glass.Glass Referenced by PotionA
+[2018.10.18-12.12.23:179][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading NULL.
+[2018.10.18-12.12.23:179][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Cork'
+[2018.10.18-12.12.23:179][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/Cork.Cork Referenced by PotionA
+[2018.10.18-12.12.23:179][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Cork' while loading NULL.
+[2018.10.18-12.12.23:179][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Liquid'
+[2018.10.18-12.12.23:180][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Liquid' while loading NULL.
+[2018.10.18-12.12.23:180][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.23:180][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading NULL.
+[2018.10.18-12.12.23:180][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Cork'
+[2018.10.18-12.12.23:180][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Cork' while loading NULL.
+[2018.10.18-12.12.23:181][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/initialShadingGroup'
+[2018.10.18-12.12.23:181][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/initialShadingGroup.initialShadingGroup Referenced by key
+[2018.10.18-12.12.23:181][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/initialShadingGroup' while loading NULL.
+[2018.10.18-12.12.23:181][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/initialShadingGroup'
+[2018.10.18-12.12.23:181][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/initialShadingGroup' while loading NULL.
+[2018.10.18-12.12.23:913][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f079d280, Size=880, Default__BP_Key_C Function /Game/Assignment2/Blueprints/BP_Key.BP_Key_C:ExecuteUbergraph_BP_Key
+[2018.10.18-12.12.23:918][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f079d280, Size=880
+[2018.10.18-12.12.23:918][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f079d280, Size=880, Default__BP_Key_C Function /Engine/Transient.REINST_BP_Key_C_29:ExecuteUbergraph_BP_Key
+[2018.10.18-12.12.23:924][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f079c100, Size=880, Default__BP_Key_C Function /Game/Assignment2/Blueprints/BP_Key.BP_Key_C:ExecuteUbergraph_BP_Key
+[2018.10.18-12.12.24:266][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.24:267][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Potion.uasset.
+[2018.10.18-12.12.24:267][ 78]LoadErrors: Error: /Game/Assignment2/Blueprints/BP_Potion : Can't find file for asset. /Game/Assignment1/Materials/Glass
+[2018.10.18-12.12.24:267][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.24:267][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Potion.uasset.
+[2018.10.18-12.12.24:267][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/PotionA'
+[2018.10.18-12.12.24:267][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/PotionA' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Potion.uasset.
+[2018.10.18-12.12.24:267][ 78]LoadErrors: Error: /Game/Assignment2/Blueprints/BP_Potion : Can't find file for asset. /Game/Assignment1/Materials/PotionA
+[2018.10.18-12.12.24:268][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/PotionA'
+[2018.10.18-12.12.24:268][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/PotionA' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Potion.uasset.
+[2018.10.18-12.12.24:269][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f38e6080, Size=896, Default__BP_Potion_C Function /Game/Assignment2/Blueprints/BP_Potion.BP_Potion_C:ExecuteUbergraph_BP_Potion
+[2018.10.18-12.12.24:270][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.24:270][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading NULL.
+[2018.10.18-12.12.24:270][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.24:270][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading NULL.
+[2018.10.18-12.12.24:270][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/PotionA'
+[2018.10.18-12.12.24:270][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/PotionA' while loading NULL.
+[2018.10.18-12.12.24:271][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/PotionA'
+[2018.10.18-12.12.24:271][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/PotionA' while loading NULL.
+[2018.10.18-12.12.24:274][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/PotionA'
+[2018.10.18-12.12.24:274][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/PotionA.PotionA Referenced by Potion_GEN_VARIABLE
+[2018.10.18-12.12.24:274][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/PotionA' while loading NULL.
+[2018.10.18-12.12.24:274][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/Glass'
+[2018.10.18-12.12.24:275][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/Glass.Glass Referenced by Potion_GEN_VARIABLE
+[2018.10.18-12.12.24:275][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/Glass' while loading NULL.
+[2018.10.18-12.12.24:278][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f38e6080, Size=896
+[2018.10.18-12.12.24:278][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f38e6080, Size=896, Default__BP_Potion_C Function /Engine/Transient.REINST_BP_Potion_C_31:ExecuteUbergraph_BP_Potion
+[2018.10.18-12.12.24:282][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f38e5600, Size=896, Default__BP_Potion_C Function /Game/Assignment2/Blueprints/BP_Potion.BP_Potion_C:ExecuteUbergraph_BP_Potion
+[2018.10.18-12.12.24:679][ 78]LogMaterial: Missing cached shader map for material Cork, compiling. 
+[2018.10.18-12.12.24:731][ 78]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.18-12.12.24:731][ 78]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.18-12.12.24:731][ 78]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.18-12.12.24:731][ 78]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.18-12.12.25:365][ 78]LogMaterial: Missing cached shader map for material Cork, compiling. 
+[2018.10.18-12.12.25:395][ 78]LogMaterial: Missing cached shader map for material Cork, compiling. 
+[2018.10.18-12.12.25:446][ 78]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.10.18-12.12.25:466][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:467][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_FuseBox.uasset.
+[2018.10.18-12.12.25:467][ 78]LoadErrors: Error: /Game/Assignment2/Blueprints/BP_FuseBox : Can't find file for asset. /Game/Assignment1/Blueprints/BP_Door
+[2018.10.18-12.12.25:468][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:468][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_FuseBox.uasset.
+[2018.10.18-12.12.25:471][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_FuseBoxFuse'
+[2018.10.18-12.12.25:471][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_FuseBoxFuse' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_FuseBox.uasset.
+[2018.10.18-12.12.25:471][ 78]LoadErrors: Error: /Game/Assignment2/Blueprints/BP_FuseBox : Can't find file for asset. /Game/Assignment1/Materials/M_FuseBoxFuse
+[2018.10.18-12.12.25:471][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:472][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_FuseBox.uasset.
+[2018.10.18-12.12.25:472][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:472][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_FuseBox.uasset.
+[2018.10.18-12.12.25:472][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_FuseBoxFuse'
+[2018.10.18-12.12.25:472][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_FuseBoxFuse' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_FuseBox.uasset.
+[2018.10.18-12.12.25:486][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256a4e4fd80, Size=280, Default__BP_FuseBox_C Function /Game/Assignment2/Blueprints/BP_FuseBox.BP_FuseBox_C:ExecuteUbergraph_BP_FuseBox
+[2018.10.18-12.12.25:486][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:487][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:487][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:487][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:487][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:487][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:488][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_FuseBoxFuse'
+[2018.10.18-12.12.25:488][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_FuseBoxFuse' while loading NULL.
+[2018.10.18-12.12.25:488][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:489][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:489][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:489][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:489][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_FuseBoxFuse'
+[2018.10.18-12.12.25:489][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_FuseBoxFuse' while loading NULL.
+[2018.10.18-12.12.25:490][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:491][ 78]LoadErrors: Failed to load /Game/Assignment1/Blueprints/BP_Door.BP_Door_C Referenced by BP_FuseBox
+[2018.10.18-12.12.25:491][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:494][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:494][ 78]LoadErrors: Failed to load /Game/Assignment1/Blueprints/BP_Door.BP_Door_C Referenced by K2Node_VariableGet_18
+[2018.10.18-12.12.25:494][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:494][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:494][ 78]LoadErrors: Failed to load /Game/Assignment1/Blueprints/BP_Door.BP_Door_C Referenced by K2Node_VariableSet_1
+[2018.10.18-12.12.25:496][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:496][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:496][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:497][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:497][ 78]LoadErrors: Failed to load /Game/Assignment1/Blueprints/BP_Door.BP_Door_C Referenced by K2Node_VariableGet_1802
+[2018.10.18-12.12.25:498][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:498][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Blueprints/BP_Door'
+[2018.10.18-12.12.25:499][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Blueprints/BP_Door' while loading NULL.
+[2018.10.18-12.12.25:501][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_FuseBoxFuse'
+[2018.10.18-12.12.25:501][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/M_FuseBoxFuse.M_FuseBoxFuse Referenced by StaticMeshComponent01_GEN_VARIABLE
+[2018.10.18-12.12.25:501][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_FuseBoxFuse' while loading NULL.
+[2018.10.18-12.12.25:502][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_FuseBoxFuse'
+[2018.10.18-12.12.25:502][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/M_FuseBoxFuse.M_FuseBoxFuse Referenced by Fuse_GEN_VARIABLE
+[2018.10.18-12.12.25:502][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_FuseBoxFuse' while loading NULL.
+[2018.10.18-12.12.25:503][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_FuseBoxFuse'
+[2018.10.18-12.12.25:503][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/M_FuseBoxFuse.M_FuseBoxFuse Referenced by StaticMeshComponent03_GEN_VARIABLE
+[2018.10.18-12.12.25:504][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_FuseBoxFuse' while loading NULL.
+[2018.10.18-12.12.25:506][ 78]LogBlueprint: Warning: [Compiler BP_FuseBox] Set : 'isUnlocked' variable not found. Base class was probably changed. /Game/Assignment2/Blueprints/BP_FuseBox.BP_FuseBox
+[2018.10.18-12.12.25:506][ 78]LogBlueprint: Warning: [Compiler BP_FuseBox] Set isUnlocked : 'isUnlocked' variable not found. Base class was probably changed. /Game/Assignment2/Blueprints/BP_FuseBox.BP_FuseBox
+[2018.10.18-12.12.25:506][ 78]LogBlueprint: Warning: [Compiler BP_FuseBox] Get : 'Door' variable not found. Base class was probably changed. /Game/Assignment2/Blueprints/BP_FuseBox.BP_FuseBox
+[2018.10.18-12.12.25:507][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256a4e4fd80, Size=280
+[2018.10.18-12.12.25:507][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256a4e4fd80, Size=280, Default__BP_FuseBox_C Function /Engine/Transient.REINST_BP_FuseBox_C_33:ExecuteUbergraph_BP_FuseBox
+[2018.10.18-12.12.25:510][ 78]LogBlueprint: Warning: [Compiler BP_FuseBox] Could not find a variable named "Door" in 'BP_FuseBox'.
+Make sure 'BP_FuseBox' has been compiled for  Get Door
+[2018.10.18-12.12.25:510][ 78]LogBlueprint: Warning: [Compiler BP_FuseBox] Could not find a variable named "isUnlocked" in 'BP_FuseBox'.
+Make sure 'BP_FuseBox' has been compiled for  Set isUnlocked
+[2018.10.18-12.12.25:510][ 78]LogBlueprint: Error: [Compiler BP_FuseBox] In use pin  Door  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2018.10.18-12.12.25:512][ 78]LogBlueprint: Error: [Compiler BP_FuseBox] The property associated with  Door  could not be found
+[2018.10.18-12.12.25:512][ 78]LogBlueprint: Error: [Compiler BP_FuseBox] The property associated with  Is Unlocked  could not be found
+[2018.10.18-12.12.25:513][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256a675a840, Size=280, Default__BP_FuseBox_C Function /Game/Assignment2/Blueprints/BP_FuseBox.BP_FuseBox_C:ExecuteUbergraph_BP_FuseBox
+[2018.10.18-12.12.25:513][ 78]LogBlueprint: Warning: [Compiler BP_FuseBox] [0060.44] Compile of BP_FuseBox failed. 3 Fatal Issue(s) 5 Warning(s) [in 9 ms] (/Game/Assignment2/Blueprints/BP_FuseBox.BP_FuseBox)
+[2018.10.18-12.12.26:205][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_Fuse'
+[2018.10.18-12.12.26:206][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_Fuse' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Fuse.uasset.
+[2018.10.18-12.12.26:206][ 78]LoadErrors: Error: /Game/Assignment2/Blueprints/BP_Fuse : Can't find file for asset. /Game/Assignment1/Materials/M_Fuse
+[2018.10.18-12.12.26:207][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_Fuse'
+[2018.10.18-12.12.26:208][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_Fuse' while loading ../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Blueprints/BP_Fuse.uasset.
+[2018.10.18-12.12.26:211][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000257153aae80, Size=880, Default__BP_Fuse_C Function /Game/Assignment2/Blueprints/BP_Fuse.BP_Fuse_C:ExecuteUbergraph_BP_Fuse
+[2018.10.18-12.12.26:212][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_Fuse'
+[2018.10.18-12.12.26:212][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_Fuse' while loading NULL.
+[2018.10.18-12.12.26:213][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_Fuse'
+[2018.10.18-12.12.26:213][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_Fuse' while loading NULL.
+[2018.10.18-12.12.26:221][ 78]LogLinker: Warning: Can't find file '/Game/Assignment1/Materials/M_Fuse'
+[2018.10.18-12.12.26:221][ 78]LoadErrors: Failed to load /Game/Assignment1/Materials/M_Fuse.M_Fuse Referenced by Fuse_GEN_VARIABLE
+[2018.10.18-12.12.26:222][ 78]LogLinker: Warning: Can't find file for asset '/Game/Assignment1/Materials/M_Fuse' while loading NULL.
+[2018.10.18-12.12.26:229][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000257153aae80, Size=880
+[2018.10.18-12.12.26:230][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000257153aae80, Size=880, Default__BP_Fuse_C Function /Engine/Transient.REINST_BP_Fuse_C_35:ExecuteUbergraph_BP_Fuse
+[2018.10.18-12.12.26:244][ 78]LogUObjectGlobals: Created PersistentFrame Addr=0x00000257153ab900, Size=880, Default__BP_Fuse_C Function /Game/Assignment2/Blueprints/BP_Fuse.BP_Fuse_C:ExecuteUbergraph_BP_Fuse
+[2018.10.18-12.12.27:192][ 78]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.18-12.12.27:192][ 78]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.18-12.12.27:192][ 78]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.18-12.12.27:193][ 78]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.18-12.12.27:331][ 78]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.18-12.12.27:418][ 78]LogSlate: Took 0.012868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.18-12.12.27:910][ 79]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.18-12.12.27:910][ 79]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.18-12.12.27:910][ 79]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.18-12.12.28:046][ 79]LogSlate: Took 0.012049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.18-12.12.28:313][ 80]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.18-12.12.28:343][ 80]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.18-12.12.28:770][ 81]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.18-12.12.28:996][ 84]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.18-12.12.29:682][ 97]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.18-12.12.29:719][ 98]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.18-12.12.30:092][106]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.18-12.12.30:371][111]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.18-12.12.30:371][111]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.18-12.12.30:816][121]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.18-12.12.31:214][131]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.10.18-12.12.31:214][131]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.10.18-12.12.31:214][131]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.10.18-12.12.31:214][131]MaterialEditorStats: Texture samplers: 2/16
+[2018.10.18-12.12.42:288][603]LogSlate: Window 'BP_Fuse' being destroyed
+[2018.10.18-12.12.53:054][107]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256ae7b8b80, Size=52, Default__FirstPersonHUD_C Function /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD
+[2018.10.18-12.12.53:060][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256ae7b8b80, Size=52
+[2018.10.18-12.12.53:060][107]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256ae7b8b80, Size=52, Default__FirstPersonHUD_C Function /Engine/Transient.REINST_FirstPersonHUD_C_37:ExecuteUbergraph_FirstPersonHUD
+[2018.10.18-12.12.53:065][107]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256ae7b8678, Size=52, Default__FirstPersonHUD_C Function /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD
+[2018.10.18-12.12.53:135][107]LogUObjectGlobals: Created PersistentFrame Addr=0x000002572f47cd60, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.12.53:141][107]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Get : 'LoseScreen' variable not found. Base class was probably changed. /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map
+[2018.10.18-12.12.53:142][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002572f47cd60, Size=40
+[2018.10.18-12.12.53:142][107]LogUObjectGlobals: Created PersistentFrame Addr=0x000002572f47cd60, Size=40, Default__Puzzle_Map_C Function /Engine/Transient.REINST_Puzzle_Map_C_41:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.12.53:147][107]LogBlueprint: Error: [Compiler PersistentLevel.Puzzle_Map] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.12.53:147][107]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Could not find a variable named "LoseScreen" in 'Puzzle_Map'.
+Make sure 'Puzzle_Map' has been compiled for  Get LoseScreen
+[2018.10.18-12.12.53:148][107]LogUObjectGlobals: Created PersistentFrame Addr=0x000002572f47d1c0, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.12.53:149][107]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] [0088.08] Compile of PersistentLevel.Puzzle_Map failed. 1 Fatal Issue(s) 2 Warning(s) [in 9 ms] (/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map)
+[2018.10.18-12.12.53:216][107]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.12.53:286][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256a9322e00, Size=768
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002569e0b7800, Size=256
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256a924ae80, Size=448
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256bab36780, Size=448
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f079d280, Size=880
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f38e6080, Size=896
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256a4e4fd80, Size=280
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000257153aae80, Size=880
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256ae7b8b80, Size=52
+[2018.10.18-12.12.53:287][107]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002572f47cd60, Size=40
+[2018.10.18-12.12.53:303][107]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew Chu/Documents/FIT2097/FIT2097 Assignment 2/FIT2097Assignment2/Content/Assignment2/Levels/Puzzle_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-12.12.53:303][107]LightingResults: New page: Lighting Build
+[2018.10.18-12.12.53:306][107]LoadErrors: New page: Loading map: Puzzle_Map.umap
+[2018.10.18-12.12.53:316][107]MapCheck: New page: Map Check
+[2018.10.18-12.12.53:317][107]LightingResults: New page: Lighting Build
+[2018.10.18-12.12.53:531][107]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-12.12.53:616][107]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-12.12.53:935][107]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 318.136ms to complete.
+[2018.10.18-12.12.53:938][107]LogFileHelpers: Loading map 'Puzzle_Map' took 0.640
+[2018.10.18-12.13.10:237][353]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.18-12.13.10:329][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.13.10:332][353]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.18-12.13.10:352][353]LogPlayLevel: [PlayLevel] Compiling Puzzle_Map before play...
+[2018.10.18-12.13.10:362][353]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002572f47d1c0, Size=40
+[2018.10.18-12.13.10:362][353]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568bdfe1b0, Size=40, Default__Puzzle_Map_C Function /Engine/Transient.REINST_Puzzle_Map_C_45:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.13.10:365][353]LogBlueprint: Error: [Compiler PersistentLevel.Puzzle_Map] Spawn node  Create Widget  must have a class specified.
+[2018.10.18-12.13.10:365][353]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] Could not find a variable named "LoseScreen" in 'Puzzle_Map'.
+Make sure 'Puzzle_Map' has been compiled for  Get LoseScreen
+[2018.10.18-12.13.10:367][353]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568bdfcf90, Size=40, Default__Puzzle_Map_C Function /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C:ExecuteUbergraph_Puzzle_Map
+[2018.10.18-12.13.10:370][353]LogBlueprint: Warning: [Compiler PersistentLevel.Puzzle_Map] [0105.30] Compile of PersistentLevel.Puzzle_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 26 ms] (/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map)
+[2018.10.18-12.13.10:671][353]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002568bdfe1b0, Size=40
+[2018.10.18-12.13.10:673][353]LogPlayLevel: PlayLevel: Blueprint regeneration took 341 ms (1 blueprints)
+[2018.10.18-12.13.10:673][353]BlueprintLog: Blueprint Puzzle_Map failed to compile
+[2018.10.18-12.13.16:658][353]LogSlate: Window 'Message' being destroyed
+[2018.10.18-12.13.16:669][353]PIE: New page: PIE session: Puzzle_Map (19 Oct 2018 10:13:16 am)
+[2018.10.18-12.13.16:669][353]LogPlayLevel: Creating play world package: /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map
+[2018.10.18-12.13.16:676][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006231s)
+[2018.10.18-12.13.16:676][353]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.13.16:677][353]LogPlayLevel: PIE: World Init took: (0.001464s)
+[2018.10.18-12.13.16:677][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map to /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map (0.007974s)
+[2018.10.18-12.13.16:714][353]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-12.13.16:741][353]LogInit: FAudioDevice initialized.
+[2018.10.18-12.13.16:935][353]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.10.18-12.13.16:943][353]LogWorld: Bringing World /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map up for play (max tick rate 60) at 2018.10.18-23.13.16
+[2018.10.18-12.13.16:945][353]LogWorld: Bringing up level for play took: 0.002786
+[2018.10.18-12.13.16:966][353]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2018.10.18-12.13.16:978][353]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.13.16:978][353]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.10.18-12.13.16:979][353]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.13.16:980][353]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.18-12.13.16:983][353]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.13.16:984][353]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.10.18-12.13.16:993][353]PIE: Play in editor start time for /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map -0.232
+[2018.10.18-12.13.16:995][353]PIE: New page: PIE session: Puzzle_Map (19 Oct 2018 10:13:16 am)
+[2018.10.18-12.13.17:005][353]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-12.13.17:160][353]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.18-12.13.17:160][353]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.13.17:160][353]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.10.18-12.13.17:160][353]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.18-12.13.17:160][353]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.18-12.13.17:161][353]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.13.17:162][353]LogNet: Game client on port 17777, rate 10000
+[2018.10.18-12.13.17:167][353]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap -0.058
+[2018.10.18-12.13.17:179][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map' with GeneratedClass '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map_C' with ClassGeneratedBy '/Game/Assignment2/Levels/Puzzle_Map.Puzzle_Map:PersistentLevel.Puzzle_Map'
+[2018.10.18-12.13.17:181][353]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56344
+[2018.10.18-12.13.17:182][353]LogHandshake: SendConnectChallenge. Timestamp: 0.020642, Cookie: 220134216191062234248133091076071048168159218083212160234032
+[2018.10.18-12.13.17:198][353]LogHandshake: SendChallengeResponse. Timestamp: 0.020642, Cookie: 220134216191062234248133091076071048168159218083212160234032
+[2018.10.18-12.13.17:332][353]LogRenderer: Reallocating scene render targets to support 856x480 Format 10 NumSamples 1 (Frame:1).
+[2018.10.18-12.13.17:533][354]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 7.29, Realtime: 0.35. IpNetDriver_0
+[2018.10.18-12.13.17:533][354]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56344
+[2018.10.18-12.13.17:533][354]LogHandshake: SendChallengeAck. InCookie: 220134216191062234248133091076071048168159218083212160234032
+[2018.10.18-12.13.17:533][354]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56344
+[2018.10.18-12.13.17:534][354]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.18-12.13.17:534][354]LogNet: NotifyAcceptedConnection: Name: Puzzle_Map, TimeStamp: 10/18/18 23:13:17, [UNetConnection] RemoteAddr: 127.0.0.1:56344, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.13.17:534][354]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56344, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.13.17:538][354]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 7.29, Realtime: 0.34. IpNetDriver_1
+[2018.10.18-12.13.17:538][354]LogNetVersion: FIT2097Assignment2 1.0.0.0, NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3846186648)
+[2018.10.18-12.13.17:538][354]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.18-12.13.17:556][355]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map.Puzzle_Map: Accepted
+[2018.10.18-12.13.17:557][355]LogNet: Remote platform little endian=1
+[2018.10.18-12.13.17:557][355]LogNet: This platform little endian=1
+[2018.10.18-12.13.17:600][356]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.18-12.13.17:601][356]LogNet: Welcomed by server (Level: /Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2018.10.18-12.13.17:616][356]LogLoad: LoadMap: 127.0.0.1:17777//Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2018.10.18-12.13.17:658][356]LogAIModule: Creating AISystem for world Puzzle_Map
+[2018.10.18-12.13.17:658][356]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.18-12.13.17:660][356]LogWorld: Bringing World /Game/Assignment2/Levels/UEDPIE_2_Puzzle_Map.Puzzle_Map up for play (max tick rate 60) at 2018.10.18-23.13.17
+[2018.10.18-12.13.17:660][356]LogWorld: Bringing up level for play took: 0.000920
+[2018.10.18-12.13.17:660][356]LogLoad: Took 0.044795 seconds to LoadMap(/Game/Assignment2/Levels/UEDPIE_1_Puzzle_Map)
+[2018.10.18-12.13.17:678][357]LogNet: Client netspeed is 10000
+[2018.10.18-12.13.17:678][357]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.18-12.13.17:688][357]LogNet: Join succeeded: 257
+[2018.10.18-12.13.40:471][435]LogWindows: Error: === Critical error: ===
+[2018.10.18-12.13.40:493][435]LogWindows: Error: 
+[2018.10.18-12.13.40:494][435]LogWindows: Error: Fatal error!
+[2018.10.18-12.13.40:496][435]LogWindows: Error: 
+[2018.10.18-12.13.40:497][435]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2018.10.18-12.13.40:499][435]LogWindows: Error: 
+[2018.10.18-12.13.40:499][435]LogWindows: Error: [Callstack] 0x000000008DDE151B ucrtbase.dll!UnknownFunction []
+[2018.10.18-12.13.40:499][435]LogWindows: Error: [Callstack] 0x000000008DDCC966 ucrtbase.dll!UnknownFunction []
+[2018.10.18-12.13.40:499][435]LogWindows: Error: [Callstack] 0x000000008DDCBD11 ucrtbase.dll!UnknownFunction []
+[2018.10.18-12.13.40:500][435]LogWindows: Error: [Callstack] 0x00000000487F9E88 UE4Editor-Core.dll!FString::PrintfImpl() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\containers\string.cpp:1312]
+[2018.10.18-12.13.40:500][435]LogWindows: Error: [Callstack] 0x000000007CA5598C UE4Editor-FIT2097Assignment2-6694.dll!AFIT2097Assignment2Character::ServerCheckAction_Implementation() [c:\users\matthew chu\documents\fit2097\fit2097 assignment 2\fit2097assignment2\source\fit2097assignment2\fit2097assignment2character.cpp:484]
+[2018.10.18-12.13.40:501][435]LogWindows: Error: [Callstack] 0x000000007CA5A008 UE4Editor-FIT2097Assignment2-6694.dll!AFIT2097Assignment2Character::execServerCheckAction() []
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x00000000491FE094 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4551]
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x00000000493E9D73 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1345]
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x0000000043CFCCFB UE4Editor-Engine.dll!AActor::ProcessEvent() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\actor.cpp:687]
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x000000007CA59A29 UE4Editor-FIT2097Assignment2-6694.dll!AFIT2097Assignment2Character::ServerCheckAction() []
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x0000000044F01166 UE4Editor-Engine.dll!FInputActionUnifiedDelegate::Execute() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\classes\components\inputcomponent.h:204]
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x0000000044F330DB UE4Editor-Engine.dll!UPlayerInput::ProcessInputStack() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\userinterface\playerinput.cpp:1225]
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x0000000044A6A6A9 UE4Editor-Engine.dll!APlayerController::ProcessPlayerInput() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\playercontroller.cpp:2471]
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x0000000044A7EF05 UE4Editor-Engine.dll!APlayerController::TickPlayerInput() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\playercontroller.cpp:4232]
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x0000000044A6816B UE4Editor-Engine.dll!APlayerController::PlayerTick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\playercontroller.cpp:2135]
+[2018.10.18-12.13.40:502][435]LogWindows: Error: [Callstack] 0x0000000044A7E0AC UE4Editor-Engine.dll!APlayerController::TickActor() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\playercontroller.cpp:4327]
+[2018.10.18-12.13.40:503][435]LogWindows: Error: [Callstack] 0x0000000043CD00E4 UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\actor.cpp:134]
+[2018.10.18-12.13.40:503][435]LogWindows: Error: [Callstack] 0x0000000044DD70BB UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:273]
+[2018.10.18-12.13.40:503][435]LogWindows: Error: [Callstack] 0x0000000044DDC793 UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:829]
+[2018.10.18-12.13.40:503][435]LogWindows: Error: [Callstack] 0x00000000487FB713 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:665]
+[2018.10.18-12.13.40:503][435]LogWindows: Error: [Callstack] 0x00000000487FBD3A UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:574]
+[2018.10.18-12.13.40:503][435]LogWindows: Error: [Callstack] 0x000000004881ECFE UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1355]
+[2018.10.18-12.13.40:503][435]LogWindows: Error: [Callstack] 0x0000000044DFD771 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:542]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x0000000044E03292 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1449]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x000000004465C304 UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:770]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x000000004466756B UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:1429]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x0000000041F5D781 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1693]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x00000000427F9626 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:401]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x000000002A215EAC UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3339]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x000000002A226BD0 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x000000002A226C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x000000002A234177 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2018.10.18-12.13.40:504][435]LogWindows: Error: [Callstack] 0x000000002A235B87 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2018.10.18-12.13.40:505][435]LogWindows: Error: [Callstack] 0x0000000090703034 KERNEL32.DLL!UnknownFunction []
+[2018.10.18-12.13.40:511][435]LogWindows: Error: [Callstack] 0x0000000091151461 ntdll.dll!UnknownFunction []
+[2018.10.18-12.13.40:511][435]LogWindows: Error: [Callstack] 0x0000000091151461 ntdll.dll!UnknownFunction []
+[2018.10.18-12.13.40:511][435]LogWindows: Error: 
+[2018.10.18-12.13.40:564][435]LogExit: Executing StaticShutdownAfterError
+[2018.10.18-12.13.41:260][435]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.10.18-12.13.41:262][435]Log file closed, 10/18/18 23:13:41

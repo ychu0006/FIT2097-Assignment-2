@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Parsing headers for FIT2097Assignment2Editor
+    Running UnrealHeaderTool "C:\Users\Matthew Chu\Documents\FIT2097\FIT2097 Assignment 2\FIT2097Assignment2\FIT2097Assignment2.uproject" "C:\Users\Matthew Chu\Documents\FIT2097\FIT2097 Assignment 2\FIT2097Assignment2\Intermediate\Build\Win64\FIT2097Assignment2Editor\Development\FIT2097Assignment2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FIT2097Assignment2Editor in 16.388894 seconds
+  Performing 6 actions (4 in parallel)
+  FIT2097Assignment2GameMode.cpp
+  FIT2097Assignment2Character.gen.cpp
+  FIT2097Assignment2.init.gen.cpp
+  FIT2097Assignment2Character.cpp
+  [5/6] Link UE4Editor-FIT2097Assignment2-3487.dll
+  [6/6] Link UE4Editor-FIT2097Assignment2-3487.lib
+     Creating library C:\Users\Matthew Chu\Documents\FIT2097\FIT2097 Assignment 2\FIT2097Assignment2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097Assignment2-3487.lib and object C:\Users\Matthew Chu\Documents\FIT2097\FIT2097 Assignment 2\FIT2097Assignment2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097Assignment2-3487.exp
+     Creating library C:\Users\Matthew Chu\Documents\FIT2097\FIT2097 Assignment 2\FIT2097Assignment2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097Assignment2-3487.suppressed.lib and object C:\Users\Matthew Chu\Documents\FIT2097\FIT2097 Assignment 2\FIT2097Assignment2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097Assignment2-3487.suppressed.exp
+  Deploying FIT2097Assignment2Editor Win64 Development...
+  Total build time: 63.21 seconds (Local executor: 40.49 seconds)

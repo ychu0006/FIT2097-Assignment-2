@@ -105,6 +105,10 @@ void AFIT2097Assignment2Character::BeginPlay()
 	}
 }
 
+void AFIT2097Assignment2Character::Tick(float deltaTime) {
+	CallMyTrace();
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -128,6 +132,8 @@ void AFIT2097Assignment2Character::SetupPlayerInputComponent(class UInputCompone
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &AFIT2097Assignment2Character::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AFIT2097Assignment2Character::MoveRight);
+
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AFIT2097Assignment2Character::Interact);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
@@ -298,3 +304,234 @@ bool AFIT2097Assignment2Character::EnableTouchscreenMovement(class UInputCompone
 	
 	return false;
 }
+
+//***********************************************************************************************
+//** My code
+//***********************************************************************************************
+
+//***************************************************************************************************
+//** Trace functions - used to detect items we are looking at in the world
+//***************************************************************************************************
+//***************************************************************************************************
+
+//***************************************************************************************************
+//** Trace() - called by our CallMyTrace() function which sets up our parameters and passes them through
+//***************************************************************************************************
+
+bool AFIT2097Assignment2Character::Trace(UWorld* World,
+	TArray<AActor*>& ActorsToIgnore,
+	const FVector& Start,
+	const FVector& End, FHitResult& HitOut,
+	ECollisionChannel CollisionChannel = ECC_Pawn,
+	bool ReturnPhysMat = false
+) {
+	// The World parameter refers to our game world (map/level) 
+	// If there is no World, abort
+	if (!World)
+	{
+		return false;
+	}
+
+	// Set up our TraceParams object
+	FCollisionQueryParams TraceParams(FName(TEXT("My Trace")), true, ActorsToIgnore[0]);
+
+	// Should we simple or complex collision?
+	TraceParams.bTraceComplex = true;
+
+	// We don't need Physics materials 
+	TraceParams.bReturnPhysicalMaterial = ReturnPhysMat;
+
+	// Add our ActorsToIgnore
+	TraceParams.AddIgnoredActors(ActorsToIgnore);
+
+	// When we're debugging it is really useful to see where our trace is in the world
+	// We can use World->DebugDrawTraceTag to tell Unreal to draw debug lines for our trace
+	// (remove these lines to remove the debug - or better create a debug switch!)
+	const FName TraceTag("MyTraceTag");
+	World->DebugDrawTraceTag = TraceTag;
+	TraceParams.TraceTag = TraceTag;
+
+
+	// Force clear the HitData which contains our results
+	HitOut = FHitResult(ForceInit);
+
+	// Perform our trace
+	World->LineTraceSingleByChannel
+	(
+		HitOut,		//result
+		Start,	//start
+		End, //end
+		CollisionChannel, //collision channel
+		TraceParams
+	);
+
+	// If we hit an actor, return true
+	return (HitOut.GetActor() != NULL);
+}
+
+//***************************************************************************************************
+//** CallMyTrace() - sets up our parameters and then calls our Trace() function
+//***************************************************************************************************
+
+void AFIT2097Assignment2Character::CallMyTrace()
+{
+	// Get the location of the camera (where we are looking from) and the direction we are looking in
+	const FVector Start = FirstPersonCameraComponent->GetComponentLocation();
+	const FVector ForwardVector = FirstPersonCameraComponent->GetForwardVector();
+
+	// How for in front of our character do we want our trace to extend?
+	// ForwardVector is a unit vector, so we multiply by the desired distance
+	const FVector End = Start + ForwardVector * 256;
+
+	// Force clear the HitData which contains our results
+	FHitResult HitData(ForceInit);
+
+	// What Actors do we want our trace to Ignore?
+	TArray<AActor*> ActorsToIgnore;
+
+	//Ignore the player character - so you don't hit yourself!
+	ActorsToIgnore.Add(this);
+
+	// Call our Trace() function with the paramaters we have set up
+	// If it Hits anything
+	if (Trace(GetWorld(), ActorsToIgnore, Start, End, HitData, ECC_Visibility, false))
+	{
+		// Process our HitData
+		if (HitData.GetActor())
+		{
+
+			//UE_LOG(LogClass, Warning, TEXT("This a testing statement. %s"), *HitData.GetActor()->GetName());
+			ProcessTraceHit(HitData);
+
+		}
+		else
+		{
+			// The trace did not return an Actor
+			// An error has occurred
+			// Record a message in the error log
+		}
+	}
+	else
+	{
+		// We did not hit an Actor
+		ClearObjectInfo();
+
+	}
+
+}
+
+//***************************************************************************************************
+//** ProcessTraceHit() - process our Trace Hit result
+//***************************************************************************************************
+
+void AFIT2097Assignment2Character::ProcessTraceHit(FHitResult& HitOut)
+{
+
+	// Cast the actor to APickup
+	AMyObject* const TestObject = Cast<AMyObject>(HitOut.GetActor());
+
+	if (TestObject)
+	{
+		// Keep a pointer to the Pickup
+		CurrentObject = TestObject;
+
+		// Set a local variable of the PickupName for the HUD
+		//UE_LOG(LogClass, Warning, TEXT("ObjectName: %s"), *TestObject->GetObjectName());
+		FString ObjectName = TestObject->GetObjectName();
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("ObjectName: %s"), *TestObject->GetObjectName()));
+
+		// Set a local variable of the PickupDisplayText for the HUD
+		//UE_LOG(LogClass, Warning, TEXT("ObjectDisplayText: %s"), *TestObject->GetObjectDisplayText());
+		FString ObjectDisplayText = TestObject->GetObjectDisplayText();
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red,FString::Printf(TEXT("ObjectDisplayText: %s"), *TestObject->GetObjectDisplayText()));
+		ObjectFound = true;
+
+	}
+	else
+	{
+		//UE_LOG(LogClass, Warning, TEXT("TestPickup is NOT a Pickup!"));
+		ClearObjectInfo();
+	}
+}
+
+void AFIT2097Assignment2Character::ClearObjectInfo() {
+	CurrentObject = NULL;
+	ObjectFound = false;
+}
+
+void AFIT2097Assignment2Character::Interact() {
+	CheckAction();
+}
+
+void AFIT2097Assignment2Character::CheckAction() {
+	ServerCheckAction(CurrentObject);
+}
+
+bool AFIT2097Assignment2Character::ServerCheckAction_Validate(AMyObject* object) {
+	return true;
+}
+
+void AFIT2097Assignment2Character::ServerCheckAction_Implementation(AMyObject* object) {
+	if (Role == ROLE_Authority) {
+		if (object != NULL) {
+			object->SetActive(!object->IsActive());
+			if (AItem* item = Cast<AItem>(object)) {
+				EItemType itemType = item->GetType();
+				if (itemType == EItemType::HEALTH) {
+					this->SetCurrentHealth(this->GetCurrentHealth()+10);
+				}
+				else if (itemType == EItemType::KEY) {
+					this->SetHasKey(true);
+					//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HasKey: %s"), this->GetHasKey()));
+				}
+				else {
+					this->SetHasFuse(true);
+					//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HasFuse: %s"), this->GetHasFuse()));
+				}
+				item->WasToggled();
+				item->Destroy();
+			}
+			else {
+				AMyObject* aMyObject = Cast<AMyObject>(object);
+				aMyObject->WasToggled();
+			}
+		}
+	}
+}
+
+float AFIT2097Assignment2Character::GetCurrentHealth() {
+	return CurrentHealth;
+}
+
+void AFIT2097Assignment2Character::SetCurrentHealth(float NewCurrentHealth) {
+	CurrentHealth = NewCurrentHealth;
+}
+
+float AFIT2097Assignment2Character::GetMaxHealth() {
+	return MaxHealth;
+}
+
+bool AFIT2097Assignment2Character::GetHasKey() {
+	return HasKey;
+}
+
+void AFIT2097Assignment2Character::SetHasKey(bool NewHasKey) {
+	HasKey = NewHasKey;
+}
+
+bool AFIT2097Assignment2Character::GetHasFuse() {
+	return HasFuse;
+}
+
+void AFIT2097Assignment2Character::SetHasFuse(bool NewHasFuse) {
+	HasFuse=NewHasFuse;
+}
+
+void AFIT2097Assignment2Character::PauseGame() {
+	
+}
+
+void AFIT2097Assignment2Character::UnPauseGame() {
+	
+}
+

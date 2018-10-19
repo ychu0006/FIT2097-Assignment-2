@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\FIT2097Assignment2.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{2EB44186-4658-4B88-BAB4-37D417AA37A7}</UniqueIdentifier>
+			<UniqueIdentifier>{A4F8CA93-1043-4D66-8EA5-C1535FB3881B}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FIT2097Assignment2.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{5C1B5635-C908-4790-9B65-1FC14DF57464}</UniqueIdentifier>
+			<UniqueIdentifier>{2FB48465-DA5B-41CC-9035-C03F6435F198}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\FIT2097Assignment2">
-			<UniqueIdentifier>{53C78EBD-ECCA-4868-8254-20FE88A35379}</UniqueIdentifier>
+			<UniqueIdentifier>{6A80B340-96F3-4262-887D-47ADDF0D2384}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FIT2097Assignment2\FIT2097Assignment2.Build.cs">
 			<Filter>Source\FIT2097Assignment2</Filter>
@@ -64,6 +64,18 @@
 			<Filter>Source\FIT2097Assignment2</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\FIT2097Assignment2\FIT2097Assignment2Projectile.h">
+			<Filter>Source\FIT2097Assignment2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FIT2097Assignment2\Item.cpp">
+			<Filter>Source\FIT2097Assignment2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FIT2097Assignment2\Item.h">
+			<Filter>Source\FIT2097Assignment2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FIT2097Assignment2\MyObject.cpp">
+			<Filter>Source\FIT2097Assignment2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FIT2097Assignment2\MyObject.h">
 			<Filter>Source\FIT2097Assignment2</Filter>
 		</ClInclude >
 	</ItemGroup>

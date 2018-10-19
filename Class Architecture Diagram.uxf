@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>710</y>
+      <w>45</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>EItemType
+--
++ HEALTH
++ KEY 
++ FUSE
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>365</x>
+      <y>235</y>
+      <w>160</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>FirstPersonCharacter
+--
++ float CurrentHealth;
++ float MaxHealth;
++ bool HasKey;
++ AMyObject* CurrentObject;
+--
++ void CheckAction();
++ void ServerCheckAction();
++ bool Trace(UWorld* World,
+		TArray&lt;AActor*&gt;&amp; ActorsToIgnore,
+		const FVector&amp; Start,
+		const FVector&amp; End,
+		FHitResult&amp; HitOut,
+		ECollisionChannel CollisionChannel,
+		bool ReturnPhysMat);
++ void CallMyTrace();
++ void ProcessTraceHit(FHitResult&amp; HitOut);
++ void ClearObjectInfo();
++ void Interact();
++ float GetCurrentHealth();	
++ void SetCurrentHealth(float NewCurrentHealth);
++ float GetMaxHealth();
++ bool GetHasKey();
++ void SetHasKey(bool NewHasKey);
++ bool GetHasFuse();
++ void SetHasFuse(bool NewHasFuse);
++ void PauseGame();
++ void UnPauseGame(); 
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>245</x>
+      <y>525</y>
+      <w>310</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes>MyObject
+--
++ void GetLifetimeReplicatedProps(TArray&lt;FLifetimeProperty&gt;&amp; OutLifetimeProps) const override;
++ bool IsObject;
++ void WasToggled();
++ virtual void WasToggled_Implementation();
+# bool bIsActive;
+# virtual void OnRep_IsActive();
+--
++FString GetObjectName();
++FString GetObjectDisplayText();
++bool IsActive();
++void SetActive(bool NewObjectState);
++ void WasToggled();
++ virtual void WasToggled_Implementation();
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>695</y>
+      <w>140</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Item
+--
++EItemType ItemType;
+
+--
++ EItemType GetType();
++ void SetType(EItemType NewItemType);
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>715</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Fusebox
+--
++ Door Door;
+--
+# PlayFuseFX();
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>700</y>
+      <w>75</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Door
+--
+- StaticMesh DoorFrame;
+- StaticMesh Door;
++ E_DoorType DoorType;
+- bool IsUnlocked;
+--
+OnRep_IsUnlocked();
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>785</y>
+      <w>55</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>E_DoorType
+--
++ 	DEFAULT
++ KEY
++ SWITCH
++ FUSE
++ BINARYCODE
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>710</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BinaryCode
+--
+# IsSwitchOnA;
+# IsSwitchOnB;
+# IsSwitchOnC;
++ IsSwitchNeededA;
++ IsSwitchNeededB;
++ IsSwitchNeededC;
+# Door Door;  
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>200</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>MainMenuWidget
+--
+--
++OnClickedStartButton();
++OnClickedQuitButton();
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>380</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>HealthBarHUD
+--
++ProgressBar HealthBar;
+--
++GetText_0();
++Get_Percent_0();
++OnClickedMainMenuButton();
++OnClickedCancelButton();
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>605</x>
+      <y>460</y>
+      <w>100</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>PauseHUD
+--
+--
++OnClickedMainMenuButton();
++OnClickedCancelButton();
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>615</x>
+      <y>285</y>
+      <w>100</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>EndScreenHUD
+--
+Button btnLoseQuit;
+Button btnPlayAgain;
+VerticalBox LoseScreen;
+VerticalBox WinScreen;
+--
++OnClickedStartButton();
++OnClickedQuitButton();
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>455</y>
+      <w>25</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>700</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+ </panel_attributes>
+    <additional_attributes>110.0;30.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>455</y>
+      <w>70</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Interacts with</panel_attributes>
+    <additional_attributes>70.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>635</y>
+      <w>55</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+talks to</panel_attributes>
+    <additional_attributes>10.0;120.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>635</y>
+      <w>95</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>735</y>
+      <w>65</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Has type of</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>635</y>
+      <w>115</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>635</y>
+      <w>115</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+talks to</panel_attributes>
+    <additional_attributes>10.0;130.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>750</y>
+      <w>20</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>345</x>
+      <y>755</y>
+      <w>55</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Has type of</panel_attributes>
+    <additional_attributes>30.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>635</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>635</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+talks to</panel_attributes>
+    <additional_attributes>10.0;160.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>635</y>
+      <w>20</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>555</x>
+      <y>635</y>
+      <w>45</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+talks to</panel_attributes>
+    <additional_attributes>40.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>195</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Interacts with</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>300</y>
+      <w>110</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Interacts with</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>370</y>
+      <w>100</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Interacts with</panel_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>420</y>
+      <w>95</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Interacts with</panel_attributes>
+    <additional_attributes>170.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
